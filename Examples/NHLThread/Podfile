@@ -6,6 +6,8 @@ target 'NHLThread' do
   use_frameworks!
 
   # Pods for NHLThread
+  pod 'ReactiveCocoa', '2.5'
+  pod 'Masonry', '1.1.0'
 
   target 'NHLThreadTests' do
     inherit! :search_paths
