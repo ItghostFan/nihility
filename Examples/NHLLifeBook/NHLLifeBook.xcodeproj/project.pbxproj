@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F150B4E72384F22F00DEBBEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F150B4E62384F22F00DEBBEA /* AppDelegate.m */; };
+		F150B4EA2384F22F00DEBBEA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F150B4E92384F22F00DEBBEA /* SceneDelegate.m */; };
+		F150B4ED2384F22F00DEBBEA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F150B4EC2384F22F00DEBBEA /* ViewController.m */; };
+		F150B4F02384F22F00DEBBEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F150B4EE2384F22F00DEBBEA /* Main.storyboard */; };
+		F150B4F22384F23100DEBBEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F150B4F12384F23100DEBBEA /* Assets.xcassets */; };
+		F150B4F52384F23100DEBBEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F150B4F32384F23100DEBBEA /* LaunchScreen.storyboard */; };
+		F150B4F82384F23100DEBBEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F150B4F72384F23100DEBBEA /* main.m */; };
+		F150B5022384F23100DEBBEA /* NHLLifeBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F150B5012384F23100DEBBEA /* NHLLifeBookTests.m */; };
+		F150B50D2384F23100DEBBEA /* NHLLifeBookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F150B50C2384F23100DEBBEA /* NHLLifeBookUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F150B4FE2384F23100DEBBEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F150B4DA2384F22F00DEBBEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F150B4E12384F22F00DEBBEA;
+			remoteInfo = NHLLifeBook;
+		};
+		F150B5092384F23100DEBBEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F150B4DA2384F22F00DEBBEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F150B4E12384F22F00DEBBEA;
+			remoteInfo = NHLLifeBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F150B4E22384F22F00DEBBEA /* NHLLifeBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NHLLifeBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F150B4E52384F22F00DEBBEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F150B4E62384F22F00DEBBEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F150B4E82384F22F00DEBBEA /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		F150B4E92384F22F00DEBBEA /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		F150B4EB2384F22F00DEBBEA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F150B4EC2384F22F00DEBBEA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F150B4EF2384F22F00DEBBEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F150B4F12384F23100DEBBEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F150B4F42384F23100DEBBEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F150B4F62384F23100DEBBEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F150B4F72384F23100DEBBEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F150B4FD2384F23100DEBBEA /* NHLLifeBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NHLLifeBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F150B5012384F23100DEBBEA /* NHLLifeBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHLLifeBookTests.m; sourceTree = "<group>"; };
+		F150B5032384F23100DEBBEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F150B5082384F23100DEBBEA /* NHLLifeBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NHLLifeBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F150B50C2384F23100DEBBEA /* NHLLifeBookUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHLLifeBookUITests.m; sourceTree = "<group>"; };
+		F150B50E2384F23100DEBBEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F150B4DF2384F22F00DEBBEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F150B4FA2384F23100DEBBEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F150B5052384F23100DEBBEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F150B4D92384F22F00DEBBEA = {
+			isa = PBXGroup;
+			children = (
+				F150B4E42384F22F00DEBBEA /* NHLLifeBook */,
+				F150B5002384F23100DEBBEA /* NHLLifeBookTests */,
+				F150B50B2384F23100DEBBEA /* NHLLifeBookUITests */,
+				F150B4E32384F22F00DEBBEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F150B4E32384F22F00DEBBEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F150B4E22384F22F00DEBBEA /* NHLLifeBook.app */,
+				F150B4FD2384F23100DEBBEA /* NHLLifeBookTests.xctest */,
+				F150B5082384F23100DEBBEA /* NHLLifeBookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F150B4E42384F22F00DEBBEA /* NHLLifeBook */ = {
+			isa = PBXGroup;
+			children = (
+				F150B4E52384F22F00DEBBEA /* AppDelegate.h */,
+				F150B4E62384F22F00DEBBEA /* AppDelegate.m */,
+				F150B4E82384F22F00DEBBEA /* SceneDelegate.h */,
+				F150B4E92384F22F00DEBBEA /* SceneDelegate.m */,
+				F150B4EB2384F22F00DEBBEA /* ViewController.h */,
+				F150B4EC2384F22F00DEBBEA /* ViewController.m */,
+				F150B4EE2384F22F00DEBBEA /* Main.storyboard */,
+				F150B4F12384F23100DEBBEA /* Assets.xcassets */,
+				F150B4F32384F23100DEBBEA /* LaunchScreen.storyboard */,
+				F150B4F62384F23100DEBBEA /* Info.plist */,
+				F150B4F72384F23100DEBBEA /* main.m */,
+			);
+			path = NHLLifeBook;
+			sourceTree = "<group>";
+		};
+		F150B5002384F23100DEBBEA /* NHLLifeBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				F150B5012384F23100DEBBEA /* NHLLifeBookTests.m */,
+				F150B5032384F23100DEBBEA /* Info.plist */,
+			);
+			path = NHLLifeBookTests;
+			sourceTree = "<group>";
+		};
+		F150B50B2384F23100DEBBEA /* NHLLifeBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F150B50C2384F23100DEBBEA /* NHLLifeBookUITests.m */,
+				F150B50E2384F23100DEBBEA /* Info.plist */,
+			);
+			path = NHLLifeBookUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F150B4E12384F22F00DEBBEA /* NHLLifeBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F150B5112384F23100DEBBEA /* Build configuration list for PBXNativeTarget "NHLLifeBook" */;
+			buildPhases = (
+				F150B4DE2384F22F00DEBBEA /* Sources */,
+				F150B4DF2384F22F00DEBBEA /* Frameworks */,
+				F150B4E02384F22F00DEBBEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NHLLifeBook;
+			productName = NHLLifeBook;
+			productReference = F150B4E22384F22F00DEBBEA /* NHLLifeBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F150B4FC2384F23100DEBBEA /* NHLLifeBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F150B5142384F23100DEBBEA /* Build configuration list for PBXNativeTarget "NHLLifeBookTests" */;
+			buildPhases = (
+				F150B4F92384F23100DEBBEA /* Sources */,
+				F150B4FA2384F23100DEBBEA /* Frameworks */,
+				F150B4FB2384F23100DEBBEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F150B4FF2384F23100DEBBEA /* PBXTargetDependency */,
+			);
+			name = NHLLifeBookTests;
+			productName = NHLLifeBookTests;
+			productReference = F150B4FD2384F23100DEBBEA /* NHLLifeBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F150B5072384F23100DEBBEA /* NHLLifeBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F150B5172384F23100DEBBEA /* Build configuration list for PBXNativeTarget "NHLLifeBookUITests" */;
+			buildPhases = (
+				F150B5042384F23100DEBBEA /* Sources */,
+				F150B5052384F23100DEBBEA /* Frameworks */,
+				F150B5062384F23100DEBBEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F150B50A2384F23100DEBBEA /* PBXTargetDependency */,
+			);
+			name = NHLLifeBookUITests;
+			productName = NHLLifeBookUITests;
+			productReference = F150B5082384F23100DEBBEA /* NHLLifeBookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F150B4DA2384F22F00DEBBEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = FanChunxing;
+				TargetAttributes = {
+					F150B4E12384F22F00DEBBEA = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					F150B4FC2384F23100DEBBEA = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = F150B4E12384F22F00DEBBEA;
+					};
+					F150B5072384F23100DEBBEA = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = F150B4E12384F22F00DEBBEA;
+					};
+				};
+			};
+			buildConfigurationList = F150B4DD2384F22F00DEBBEA /* Build configuration list for PBXProject "NHLLifeBook" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F150B4D92384F22F00DEBBEA;
+			productRefGroup = F150B4E32384F22F00DEBBEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F150B4E12384F22F00DEBBEA /* NHLLifeBook */,
+				F150B4FC2384F23100DEBBEA /* NHLLifeBookTests */,
+				F150B5072384F23100DEBBEA /* NHLLifeBookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F150B4E02384F22F00DEBBEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F150B4F52384F23100DEBBEA /* LaunchScreen.storyboard in Resources */,
+				F150B4F22384F23100DEBBEA /* Assets.xcassets in Resources */,
+				F150B4F02384F22F00DEBBEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F150B4FB2384F23100DEBBEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F150B5062384F23100DEBBEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F150B4DE2384F22F00DEBBEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F150B4ED2384F22F00DEBBEA /* ViewController.m in Sources */,
+				F150B4E72384F22F00DEBBEA /* AppDelegate.m in Sources */,
+				F150B4F82384F23100DEBBEA /* main.m in Sources */,
+				F150B4EA2384F22F00DEBBEA /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F150B4F92384F23100DEBBEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F150B5022384F23100DEBBEA /* NHLLifeBookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F150B5042384F23100DEBBEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F150B50D2384F23100DEBBEA /* NHLLifeBookUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F150B4FF2384F23100DEBBEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F150B4E12384F22F00DEBBEA /* NHLLifeBook */;
+			targetProxy = F150B4FE2384F23100DEBBEA /* PBXContainerItemProxy */;
+		};
+		F150B50A2384F23100DEBBEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F150B4E12384F22F00DEBBEA /* NHLLifeBook */;
+			targetProxy = F150B5092384F23100DEBBEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F150B4EE2384F22F00DEBBEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F150B4EF2384F22F00DEBBEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F150B4F32384F23100DEBBEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F150B4F42384F23100DEBBEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F150B50F2384F23100DEBBEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F150B5102384F23100DEBBEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F150B5122384F23100DEBBEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XG9433FZR9;
+				INFOPLIST_FILE = NHLLifeBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nihility.NHLLifeBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F150B5132384F23100DEBBEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XG9433FZR9;
+				INFOPLIST_FILE = NHLLifeBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nihility.NHLLifeBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F150B5152384F23100DEBBEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XG9433FZR9;
+				INFOPLIST_FILE = NHLLifeBookTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nihility.NHLLifeBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NHLLifeBook.app/NHLLifeBook";
+			};
+			name = Debug;
+		};
+		F150B5162384F23100DEBBEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XG9433FZR9;
+				INFOPLIST_FILE = NHLLifeBookTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nihility.NHLLifeBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NHLLifeBook.app/NHLLifeBook";
+			};
+			name = Release;
+		};
+		F150B5182384F23100DEBBEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XG9433FZR9;
+				INFOPLIST_FILE = NHLLifeBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nihility.NHLLifeBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NHLLifeBook;
+			};
+			name = Debug;
+		};
+		F150B5192384F23100DEBBEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XG9433FZR9;
+				INFOPLIST_FILE = NHLLifeBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nihility.NHLLifeBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NHLLifeBook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F150B4DD2384F22F00DEBBEA /* Build configuration list for PBXProject "NHLLifeBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F150B50F2384F23100DEBBEA /* Debug */,
+				F150B5102384F23100DEBBEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F150B5112384F23100DEBBEA /* Build configuration list for PBXNativeTarget "NHLLifeBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F150B5122384F23100DEBBEA /* Debug */,
+				F150B5132384F23100DEBBEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F150B5142384F23100DEBBEA /* Build configuration list for PBXNativeTarget "NHLLifeBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F150B5152384F23100DEBBEA /* Debug */,
+				F150B5162384F23100DEBBEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F150B5172384F23100DEBBEA /* Build configuration list for PBXNativeTarget "NHLLifeBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F150B5182384F23100DEBBEA /* Debug */,
+				F150B5192384F23100DEBBEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F150B4DA2384F22F00DEBBEA /* Project object */;
+}

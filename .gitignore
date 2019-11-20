@@ -5,3 +5,9 @@ Examples/NHLThread/NHLThread.xcodeproj/project.xcworkspace
 Examples/NHLThread/Podfile.lock
 Examples/NHLThread/Pods/*
 Examples/NHLThread/NHLThread.xcworkspace
+
+Examples/NHLLifeBook/NHLLifeBook.xcodeproj/xcuserdata/*
+Examples/NHLLifeBook/NHLLifeBook.xcodeproj/project.xcworkspace
+Examples/NHLLifeBook/Podfile.lock
+Examples/NHLLifeBook/Pods/*
+Examples/NHLLifeBook/NHLLifeBook.xcworkspace
