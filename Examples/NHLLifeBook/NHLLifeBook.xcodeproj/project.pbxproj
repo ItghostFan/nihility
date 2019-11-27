@@ -10,6 +10,16 @@
 		A83EC68E0AD8541C547F2458 /* Pods_NHLLifeBookTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA09A658006A6F212C531CA9 /* Pods_NHLLifeBookTests.framework */; };
 		C5A92852A9B2FB5274C49813 /* Pods_NHLLifeBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F26132D1E91C54EBDB359D67 /* Pods_NHLLifeBook.framework */; };
 		C5CBF0B59180DD379D6A1281 /* Pods_NHLLifeBookUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD75B8BE7DB3097B197A6F9 /* Pods_NHLLifeBookUITests.framework */; };
+		F13D8495238E7759005FA153 /* PropertyPanelBuilder.plist in Resources */ = {isa = PBXBuildFile; fileRef = F13D8494238E7759005FA153 /* PropertyPanelBuilder.plist */; };
+		F13D8499238E77B2005FA153 /* NHLElementPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = F13D8498238E77B2005FA153 /* NHLElementPanel.m */; };
+		F13D849C238E77CC005FA153 /* NHLTextPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = F13D849B238E77CC005FA153 /* NHLTextPanel.m */; };
+		F13D849F238E77DB005FA153 /* NHLImagePanel.m in Sources */ = {isa = PBXBuildFile; fileRef = F13D849E238E77DB005FA153 /* NHLImagePanel.m */; };
+		F13D84AB238E7E3A005FA153 /* NHLElementViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F13D84AA238E7E3A005FA153 /* NHLElementViewModel.m */; };
+		F13D84AE238E7FEA005FA153 /* NHLElementFrameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F13D84AD238E7FEA005FA153 /* NHLElementFrameModel.m */; };
+		F13D84B2238E814A005FA153 /* NHLElementFrameCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F13D84B1238E814A005FA153 /* NHLElementFrameCell.m */; };
+		F13D84B6238E825C005FA153 /* NHLUIBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = F13D84B5238E825C005FA153 /* NHLUIBuilder.m */; };
+		F13D84B9238E8717005FA153 /* NHLMakeBookController.m in Sources */ = {isa = PBXBuildFile; fileRef = F13D84B8238E8717005FA153 /* NHLMakeBookController.m */; };
+		F13D84BE238E877C005FA153 /* NHLMakeBookViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F13D84BD238E877C005FA153 /* NHLMakeBookViewModel.m */; };
 		F150B4E72384F22F00DEBBEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F150B4E62384F22F00DEBBEA /* AppDelegate.m */; };
 		F150B4F22384F23100DEBBEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F150B4F12384F23100DEBBEA /* Assets.xcassets */; };
 		F150B4F52384F23100DEBBEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F150B4F32384F23100DEBBEA /* LaunchScreen.storyboard */; };
@@ -52,6 +62,25 @@
 		9D79B97EC1E13876624E6214 /* Pods-App-NHLLifeBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-NHLLifeBook.release.xcconfig"; path = "Target Support Files/Pods-App-NHLLifeBook/Pods-App-NHLLifeBook.release.xcconfig"; sourceTree = "<group>"; };
 		AA09A658006A6F212C531CA9 /* Pods_NHLLifeBookTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NHLLifeBookTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F13D8493238E6F77005FA153 /* NHLLifeBook.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHLLifeBook.pch; sourceTree = "<group>"; };
+		F13D8494238E7759005FA153 /* PropertyPanelBuilder.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PropertyPanelBuilder.plist; sourceTree = "<group>"; };
+		F13D8497238E77B2005FA153 /* NHLElementPanel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHLElementPanel.h; sourceTree = "<group>"; };
+		F13D8498238E77B2005FA153 /* NHLElementPanel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHLElementPanel.m; sourceTree = "<group>"; };
+		F13D849A238E77CC005FA153 /* NHLTextPanel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHLTextPanel.h; sourceTree = "<group>"; };
+		F13D849B238E77CC005FA153 /* NHLTextPanel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHLTextPanel.m; sourceTree = "<group>"; };
+		F13D849D238E77DB005FA153 /* NHLImagePanel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHLImagePanel.h; sourceTree = "<group>"; };
+		F13D849E238E77DB005FA153 /* NHLImagePanel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHLImagePanel.m; sourceTree = "<group>"; };
+		F13D84A9238E7E3A005FA153 /* NHLElementViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHLElementViewModel.h; sourceTree = "<group>"; };
+		F13D84AA238E7E3A005FA153 /* NHLElementViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHLElementViewModel.m; sourceTree = "<group>"; };
+		F13D84AC238E7FEA005FA153 /* NHLElementFrameModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHLElementFrameModel.h; sourceTree = "<group>"; };
+		F13D84AD238E7FEA005FA153 /* NHLElementFrameModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHLElementFrameModel.m; sourceTree = "<group>"; };
+		F13D84B0238E814A005FA153 /* NHLElementFrameCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHLElementFrameCell.h; sourceTree = "<group>"; };
+		F13D84B1238E814A005FA153 /* NHLElementFrameCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHLElementFrameCell.m; sourceTree = "<group>"; };
+		F13D84B4238E825C005FA153 /* NHLUIBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHLUIBuilder.h; sourceTree = "<group>"; };
+		F13D84B5238E825C005FA153 /* NHLUIBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHLUIBuilder.m; sourceTree = "<group>"; };
+		F13D84B7238E8717005FA153 /* NHLMakeBookController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHLMakeBookController.h; sourceTree = "<group>"; };
+		F13D84B8238E8717005FA153 /* NHLMakeBookController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHLMakeBookController.m; sourceTree = "<group>"; };
+		F13D84BC238E877C005FA153 /* NHLMakeBookViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHLMakeBookViewModel.h; sourceTree = "<group>"; };
+		F13D84BD238E877C005FA153 /* NHLMakeBookViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHLMakeBookViewModel.m; sourceTree = "<group>"; };
 		F150B4E22384F22F00DEBBEA /* NHLLifeBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NHLLifeBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F150B4E52384F22F00DEBBEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F150B4E62384F22F00DEBBEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -135,6 +164,78 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F13D8496238E7775005FA153 /* Panel */ = {
+			isa = PBXGroup;
+			children = (
+				F13D84AF238E8125005FA153 /* View */,
+				F13D84A8238E7DF9005FA153 /* Model */,
+				F13D84A7238E7DEB005FA153 /* ViewModel */,
+				F13D8497238E77B2005FA153 /* NHLElementPanel.h */,
+				F13D8498238E77B2005FA153 /* NHLElementPanel.m */,
+				F13D849A238E77CC005FA153 /* NHLTextPanel.h */,
+				F13D849B238E77CC005FA153 /* NHLTextPanel.m */,
+				F13D849D238E77DB005FA153 /* NHLImagePanel.h */,
+				F13D849E238E77DB005FA153 /* NHLImagePanel.m */,
+			);
+			path = Panel;
+			sourceTree = "<group>";
+		};
+		F13D84A7238E7DEB005FA153 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F13D84A9238E7E3A005FA153 /* NHLElementViewModel.h */,
+				F13D84AA238E7E3A005FA153 /* NHLElementViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F13D84A8238E7DF9005FA153 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F13D84AC238E7FEA005FA153 /* NHLElementFrameModel.h */,
+				F13D84AD238E7FEA005FA153 /* NHLElementFrameModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F13D84AF238E8125005FA153 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F13D84B0238E814A005FA153 /* NHLElementFrameCell.h */,
+				F13D84B1238E814A005FA153 /* NHLElementFrameCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F13D84B3238E8242005FA153 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				F13D84BA238E8720005FA153 /* MakeBook */,
+				F13D84B4238E825C005FA153 /* NHLUIBuilder.h */,
+				F13D84B5238E825C005FA153 /* NHLUIBuilder.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		F13D84BA238E8720005FA153 /* MakeBook */ = {
+			isa = PBXGroup;
+			children = (
+				F13D84BB238E873D005FA153 /* ViewModel */,
+				F13D84B7238E8717005FA153 /* NHLMakeBookController.h */,
+				F13D84B8238E8717005FA153 /* NHLMakeBookController.m */,
+			);
+			path = MakeBook;
+			sourceTree = "<group>";
+		};
+		F13D84BB238E873D005FA153 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F13D84BC238E877C005FA153 /* NHLMakeBookViewModel.h */,
+				F13D84BD238E877C005FA153 /* NHLMakeBookViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		F150B4D92384F22F00DEBBEA = {
 			isa = PBXGroup;
 			children = (
@@ -160,8 +261,9 @@
 		F150B4E42384F22F00DEBBEA /* NHLLifeBook */ = {
 			isa = PBXGroup;
 			children = (
+				F13D84B3238E8242005FA153 /* UI */,
 				F17D6080238E5D2F009E1E57 /* ViewModel */,
-				F17D607F238E5D21009E1E57 /* UI */,
+				F17D607F238E5D21009E1E57 /* LifeBook */,
 				F150B4E52384F22F00DEBBEA /* AppDelegate.h */,
 				F150B4E62384F22F00DEBBEA /* AppDelegate.m */,
 				F150B4F12384F23100DEBBEA /* Assets.xcassets */,
@@ -197,17 +299,19 @@
 				F17D6093238E6743009E1E57 /* NHLElementBuilder.h */,
 				F17D6094238E6743009E1E57 /* NHLElementBuilder.m */,
 				F17D6096238E68AD009E1E57 /* ElementBuilder.plist */,
+				F13D8494238E7759005FA153 /* PropertyPanelBuilder.plist */,
 			);
 			path = Builder;
 			sourceTree = "<group>";
 		};
-		F17D607F238E5D21009E1E57 /* UI */ = {
+		F17D607F238E5D21009E1E57 /* LifeBook */ = {
 			isa = PBXGroup;
 			children = (
+				F13D8496238E7775005FA153 /* Panel */,
 				F17D608C238E63F8009E1E57 /* Element */,
 				F17D607E238E5D0D009E1E57 /* Builder */,
 			);
-			path = UI;
+			path = LifeBook;
 			sourceTree = "<group>";
 		};
 		F17D6080238E5D2F009E1E57 /* ViewModel */ = {
@@ -336,6 +440,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F13D8495238E7759005FA153 /* PropertyPanelBuilder.plist in Resources */,
 				F150B4F52384F23100DEBBEA /* LaunchScreen.storyboard in Resources */,
 				F150B4F22384F23100DEBBEA /* Assets.xcassets in Resources */,
 				F17D6097238E68AD009E1E57 /* ElementBuilder.plist in Resources */,
@@ -449,11 +554,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F13D84BE238E877C005FA153 /* NHLMakeBookViewModel.m in Sources */,
+				F13D84B6238E825C005FA153 /* NHLUIBuilder.m in Sources */,
 				F17D6095238E6743009E1E57 /* NHLElementBuilder.m in Sources */,
+				F13D84B2238E814A005FA153 /* NHLElementFrameCell.m in Sources */,
 				F150B4E72384F22F00DEBBEA /* AppDelegate.m in Sources */,
+				F13D8499238E77B2005FA153 /* NHLElementPanel.m in Sources */,
+				F13D84B9238E8717005FA153 /* NHLMakeBookController.m in Sources */,
 				F150B4F82384F23100DEBBEA /* main.m in Sources */,
 				F17D608F238E6462009E1E57 /* NHLUIElement.m in Sources */,
+				F13D849C238E77CC005FA153 /* NHLTextPanel.m in Sources */,
 				F17D6092238E64AE009E1E57 /* NHLUIPage.m in Sources */,
+				F13D84AB238E7E3A005FA153 /* NHLElementViewModel.m in Sources */,
+				F13D849F238E77DB005FA153 /* NHLImagePanel.m in Sources */,
+				F13D84AE238E7FEA005FA153 /* NHLElementFrameModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -627,6 +741,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = nihility.NHLLifeBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../Pods/NHLFoundation/NHLFoundation\"/**",
+					"\"$(SRCROOT)/../Pods/NHLUIKit/NHLUIKit\"/**",
+				);
 			};
 			name = Debug;
 		};
@@ -647,6 +765,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = nihility.NHLLifeBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../Pods/NHLFoundation/NHLFoundation\"/**",
+					"\"$(SRCROOT)/../Pods/NHLUIKit/NHLUIKit\"/**",
+				);
 			};
 			name = Release;
 		};

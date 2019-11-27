@@ -1,14 +1,14 @@
 //
-//  NHLUIElement.m
+//  NHLElementPanel.m
 //  NHLLifeBook
 //
-//  Created by ItghostFan on 2019/11/27.
+//  Created by FanChunxing on 2019/11/27.
 //  Copyright © 2019 ItghostFan. All rights reserved.
 //
 
-#import "NHLUIElement.h"
+#import "NHLElementPanel.h"
 
-@implementation NHLUIElement
+@implementation NHLElementPanel
 
 /*
 // Only override drawRect: if you perform custom drawing.

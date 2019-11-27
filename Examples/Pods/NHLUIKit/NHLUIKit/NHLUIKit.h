@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
+#import "UIColor+UIKit.h"
+#import "UIView+Frame.h"
+
 @interface NHLUIKit : NSObject
 
 @end

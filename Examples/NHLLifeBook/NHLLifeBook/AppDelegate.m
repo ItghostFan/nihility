@@ -8,6 +8,9 @@
 
 #import "AppDelegate.h"
 
+#import "NHLMakeBookViewModel.h"
+#import "NHLMakeBookController.h"
+
 @interface AppDelegate ()
 @property (strong, nonatomic) UIWindow *keyWindow;
 @end
@@ -16,8 +19,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.keyWindow = [UIWindow new];
-    self.keyWindow.rootViewController = [UIViewController new];
-    self.keyWindow.rootViewController.view.backgroundColor = UIColor.redColor;
+    NHLMakeBookController *controller = [[NHLMakeBookController alloc] initWithViewModel:[NHLMakeBookViewModel new]];
+    self.keyWindow.rootViewController = controller;
     [self.keyWindow makeKeyAndVisible];
     return YES;
 }

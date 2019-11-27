@@ -99,6 +99,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F13D84A0238E7867005FA153 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
 		F1458411238E513D005885FB = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +129,7 @@
 		F145841C238E513D005885FB /* NHLFoundation */ = {
 			isa = PBXGroup;
 			children = (
+				F13D84A0238E7867005FA153 /* Foundation */,
 				F145841D238E513D005885FB /* NHLFoundation.h */,
 				F145841E238E513D005885FB /* NHLFoundation.m */,
 			);

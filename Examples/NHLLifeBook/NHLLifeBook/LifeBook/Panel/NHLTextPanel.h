@@ -1,16 +1,16 @@
 //
-//  NHLUIPage.h
+//  NHLTextPanel.h
 //  NHLLifeBook
 //
-//  Created by ItghostFan on 2019/11/27.
+//  Created by FanChunxing on 2019/11/27.
 //  Copyright © 2019 ItghostFan. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "NHLElementPanel.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NHLUIPage : UIView
+@interface NHLTextPanel : NHLElementPanel
 
 @end
 

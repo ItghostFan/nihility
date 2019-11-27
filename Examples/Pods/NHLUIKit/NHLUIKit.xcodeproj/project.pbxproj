@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		40629046143B5B45D0F73A29 /* libPods-NHLUIKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A29B4ECE905A07480910306D /* libPods-NHLUIKit.a */; };
 		EE019B99B04A5C0EF06B0FB7 /* libPods-NHLUIKitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 600607F3644FCB9911C8AC47 /* libPods-NHLUIKitTests.a */; };
+		F13D84A3238E7925005FA153 /* UIColor+UIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F13D84A2238E7925005FA153 /* UIColor+UIKit.m */; };
 		F145840A238E5112005885FB /* NHLUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F1458409238E5112005885FB /* NHLUIKit.m */; };
 		F145840B238E5112005885FB /* NHLUIKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F1458408238E5112005885FB /* NHLUIKit.h */; };
 		F17D6076238E5A99009E1E57 /* NHLUIKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F17D6075238E5A99009E1E57 /* NHLUIKitTests.m */; };
@@ -47,6 +48,8 @@
 		A29B4ECE905A07480910306D /* libPods-NHLUIKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NHLUIKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE0483BBBEF3751DC75EC143 /* Pods-NHLUIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NHLUIKit.debug.xcconfig"; path = "Target Support Files/Pods-NHLUIKit/Pods-NHLUIKit.debug.xcconfig"; sourceTree = "<group>"; };
 		D973589A4F7E93CE49716457 /* Pods-NHLUIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NHLUIKit.release.xcconfig"; path = "Target Support Files/Pods-NHLUIKit/Pods-NHLUIKit.release.xcconfig"; sourceTree = "<group>"; };
+		F13D84A1238E7925005FA153 /* UIColor+UIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+UIKit.h"; sourceTree = "<group>"; };
+		F13D84A2238E7925005FA153 /* UIColor+UIKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+UIKit.m"; sourceTree = "<group>"; };
 		F1458405238E5112005885FB /* libNHLUIKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNHLUIKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1458408238E5112005885FB /* NHLUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHLUIKit.h; sourceTree = "<group>"; };
 		F1458409238E5112005885FB /* NHLUIKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHLUIKit.m; sourceTree = "<group>"; };
@@ -146,6 +149,8 @@
 			children = (
 				F17D6082238E5EEA009E1E57 /* UIView+Frame.h */,
 				F17D6083238E5EEA009E1E57 /* UIView+Frame.m */,
+				F13D84A1238E7925005FA153 /* UIColor+UIKit.h */,
+				F13D84A2238E7925005FA153 /* UIColor+UIKit.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -290,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F17D6084238E5EEA009E1E57 /* UIView+Frame.m in Sources */,
+				F13D84A3238E7925005FA153 /* UIColor+UIKit.m in Sources */,
 				F145840A238E5112005885FB /* NHLUIKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
