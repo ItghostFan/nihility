@@ -1,0 +1,62 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+platform :ios, '9.0'
+inhibit_all_warnings!
+
+def pod_github ()
+  pod 'ReactiveCocoa', '2.5'            # MVVM
+  pod 'CocoaLumberjack', '2.0.0-rc'     # 日志
+  pod 'Masonry', '1.1.0'                # UI布局
+end
+
+workspace 'NHLLifeBook'
+
+target 'NHLLifeBook' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for NHLLifeBook
+  pod_github()
+  
+  target 'NHLLifeBookTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'NHLLifeBookUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+target 'NHLUIKit' do
+  pod_github()
+  project '../Pods/NHLUIKit/NHLUIKit.xcodeproj'
+  
+  target 'NHLUIKitTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+end
+
+target 'NHLFoundation' do
+  pod_github()
+  project '../Pods/NHLFoundation/NHLFoundation.xcodeproj'
+  
+  target 'NHLFoundationTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      if config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'].to_f < 9.0
+        config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '9.0'
+      end
+    end
+  end
+end

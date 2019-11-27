@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88A628C18C9B08D4D4AEF717 /* libPods-NHLFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 363E78E3224D97797F6D43B9 /* libPods-NHLFoundation.a */; };
+		F0652153C8E33312EA0E1A2B /* libPods-NHLFoundationTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68410124C477BBA6F09BBA83 /* libPods-NHLFoundationTests.a */; };
+		F145841F238E513D005885FB /* NHLFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = F145841E238E513D005885FB /* NHLFoundation.m */; };
+		F1458420238E513D005885FB /* NHLFoundation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F145841D238E513D005885FB /* NHLFoundation.h */; };
+		F17D6067238E5A7A009E1E57 /* NHLFoundationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F17D6066238E5A7A009E1E57 /* NHLFoundationTests.m */; };
+		F17D6069238E5A7A009E1E57 /* libNHLFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F145841A238E513D005885FB /* libNHLFoundation.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F17D606A238E5A7A009E1E57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1458412238E513D005885FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1458419238E513D005885FB;
+			remoteInfo = NHLFoundation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F1458418238E513D005885FB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				F1458420238E513D005885FB /* NHLFoundation.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0247C691A2565001A4ABC0E4 /* Pods-App-NHLFoundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-NHLFoundation.debug.xcconfig"; path = "Target Support Files/Pods-App-NHLFoundation/Pods-App-NHLFoundation.debug.xcconfig"; sourceTree = "<group>"; };
+		363E78E3224D97797F6D43B9 /* libPods-NHLFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NHLFoundation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B79A61F4A41E18579B2F9B4 /* Pods-NHLFoundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NHLFoundation.debug.xcconfig"; path = "Target Support Files/Pods-NHLFoundation/Pods-NHLFoundation.debug.xcconfig"; sourceTree = "<group>"; };
+		68410124C477BBA6F09BBA83 /* libPods-NHLFoundationTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NHLFoundationTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A331C179C93F4411C452D8AF /* Pods-App-NHLFoundation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-NHLFoundation.release.xcconfig"; path = "Target Support Files/Pods-App-NHLFoundation/Pods-App-NHLFoundation.release.xcconfig"; sourceTree = "<group>"; };
+		C51D994E7E623681590F11CB /* Pods-NHLFoundationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NHLFoundationTests.release.xcconfig"; path = "Target Support Files/Pods-NHLFoundationTests/Pods-NHLFoundationTests.release.xcconfig"; sourceTree = "<group>"; };
+		F145841A238E513D005885FB /* libNHLFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNHLFoundation.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F145841D238E513D005885FB /* NHLFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHLFoundation.h; sourceTree = "<group>"; };
+		F145841E238E513D005885FB /* NHLFoundation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHLFoundation.m; sourceTree = "<group>"; };
+		F17D6064238E5A7A009E1E57 /* NHLFoundationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NHLFoundationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F17D6066238E5A7A009E1E57 /* NHLFoundationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHLFoundationTests.m; sourceTree = "<group>"; };
+		F17D6068238E5A7A009E1E57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F56015418E8C319C7D3497E0 /* Pods-NHLFoundationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NHLFoundationTests.debug.xcconfig"; path = "Target Support Files/Pods-NHLFoundationTests/Pods-NHLFoundationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FECF52C1CD777580F2354AF4 /* Pods-NHLFoundation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NHLFoundation.release.xcconfig"; path = "Target Support Files/Pods-NHLFoundation/Pods-NHLFoundation.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1458417238E513D005885FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88A628C18C9B08D4D4AEF717 /* libPods-NHLFoundation.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F17D6061238E5A7A009E1E57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F17D6069238E5A7A009E1E57 /* libNHLFoundation.a in Frameworks */,
+				F0652153C8E33312EA0E1A2B /* libPods-NHLFoundationTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CF200F9E4DCAEB7CBF119D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B79A61F4A41E18579B2F9B4 /* Pods-NHLFoundation.debug.xcconfig */,
+				FECF52C1CD777580F2354AF4 /* Pods-NHLFoundation.release.xcconfig */,
+				0247C691A2565001A4ABC0E4 /* Pods-App-NHLFoundation.debug.xcconfig */,
+				A331C179C93F4411C452D8AF /* Pods-App-NHLFoundation.release.xcconfig */,
+				F56015418E8C319C7D3497E0 /* Pods-NHLFoundationTests.debug.xcconfig */,
+				C51D994E7E623681590F11CB /* Pods-NHLFoundationTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../../NHLLifeBook/Pods;
+			sourceTree = "<group>";
+		};
+		D3470EE3E51CDD7BE27360D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				363E78E3224D97797F6D43B9 /* libPods-NHLFoundation.a */,
+				68410124C477BBA6F09BBA83 /* libPods-NHLFoundationTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1458411238E513D005885FB = {
+			isa = PBXGroup;
+			children = (
+				F145841C238E513D005885FB /* NHLFoundation */,
+				F17D6065238E5A7A009E1E57 /* NHLFoundationTests */,
+				F145841B238E513D005885FB /* Products */,
+				7CF200F9E4DCAEB7CBF119D5 /* Pods */,
+				D3470EE3E51CDD7BE27360D6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F145841B238E513D005885FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F145841A238E513D005885FB /* libNHLFoundation.a */,
+				F17D6064238E5A7A009E1E57 /* NHLFoundationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F145841C238E513D005885FB /* NHLFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				F145841D238E513D005885FB /* NHLFoundation.h */,
+				F145841E238E513D005885FB /* NHLFoundation.m */,
+			);
+			path = NHLFoundation;
+			sourceTree = "<group>";
+		};
+		F17D6065238E5A7A009E1E57 /* NHLFoundationTests */ = {
+			isa = PBXGroup;
+			children = (
+				F17D6066238E5A7A009E1E57 /* NHLFoundationTests.m */,
+				F17D6068238E5A7A009E1E57 /* Info.plist */,
+			);
+			path = NHLFoundationTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1458419238E513D005885FB /* NHLFoundation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1458423238E513D005885FB /* Build configuration list for PBXNativeTarget "NHLFoundation" */;
+			buildPhases = (
+				AF769FABE0F6FB0225687506 /* [CP] Check Pods Manifest.lock */,
+				F1458416238E513D005885FB /* Sources */,
+				F1458417238E513D005885FB /* Frameworks */,
+				F1458418238E513D005885FB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NHLFoundation;
+			productName = NHLFoundation;
+			productReference = F145841A238E513D005885FB /* libNHLFoundation.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F17D6063238E5A7A009E1E57 /* NHLFoundationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F17D606E238E5A7A009E1E57 /* Build configuration list for PBXNativeTarget "NHLFoundationTests" */;
+			buildPhases = (
+				365E73B4E997011BF2E62AD0 /* [CP] Check Pods Manifest.lock */,
+				F17D6060238E5A7A009E1E57 /* Sources */,
+				F17D6061238E5A7A009E1E57 /* Frameworks */,
+				F17D6062238E5A7A009E1E57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F17D606B238E5A7A009E1E57 /* PBXTargetDependency */,
+			);
+			name = NHLFoundationTests;
+			productName = NHLFoundationTests;
+			productReference = F17D6064238E5A7A009E1E57 /* NHLFoundationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1458412238E513D005885FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NHL;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = ItghostFan;
+				TargetAttributes = {
+					F1458419238E513D005885FB = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					F17D6063238E5A7A009E1E57 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+				};
+			};
+			buildConfigurationList = F1458415238E513D005885FB /* Build configuration list for PBXProject "NHLFoundation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1458411238E513D005885FB;
+			productRefGroup = F145841B238E513D005885FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1458419238E513D005885FB /* NHLFoundation */,
+				F17D6063238E5A7A009E1E57 /* NHLFoundationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F17D6062238E5A7A009E1E57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		365E73B4E997011BF2E62AD0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NHLFoundationTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF769FABE0F6FB0225687506 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NHLFoundation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1458416238E513D005885FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F145841F238E513D005885FB /* NHLFoundation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F17D6060238E5A7A009E1E57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F17D6067238E5A7A009E1E57 /* NHLFoundationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F17D606B238E5A7A009E1E57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1458419238E513D005885FB /* NHLFoundation */;
+			targetProxy = F17D606A238E5A7A009E1E57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F1458421238E513D005885FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../NHLLifeBook/Pods/CocoaLumberjack\"";
+			};
+			name = Debug;
+		};
+		F1458422238E513D005885FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../NHLLifeBook/Pods/CocoaLumberjack\"";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1458424238E513D005885FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B79A61F4A41E18579B2F9B4 /* Pods-NHLFoundation.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XG9433FZR9;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1458425238E513D005885FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FECF52C1CD777580F2354AF4 /* Pods-NHLFoundation.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XG9433FZR9;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F17D606C238E5A7A009E1E57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F56015418E8C319C7D3497E0 /* Pods-NHLFoundationTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XG9433FZR9;
+				INFOPLIST_FILE = NHLFoundationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nihility.NHLFoundationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F17D606D238E5A7A009E1E57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C51D994E7E623681590F11CB /* Pods-NHLFoundationTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XG9433FZR9;
+				INFOPLIST_FILE = NHLFoundationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nihility.NHLFoundationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1458415238E513D005885FB /* Build configuration list for PBXProject "NHLFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1458421238E513D005885FB /* Debug */,
+				F1458422238E513D005885FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1458423238E513D005885FB /* Build configuration list for PBXNativeTarget "NHLFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1458424238E513D005885FB /* Debug */,
+				F1458425238E513D005885FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F17D606E238E5A7A009E1E57 /* Build configuration list for PBXNativeTarget "NHLFoundationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F17D606C238E5A7A009E1E57 /* Debug */,
+				F17D606D238E5A7A009E1E57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1458412238E513D005885FB /* Project object */;
+}

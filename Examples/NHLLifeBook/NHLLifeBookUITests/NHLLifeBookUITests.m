@@ -2,8 +2,8 @@
 //  NHLLifeBookUITests.m
 //  NHLLifeBookUITests
 //
-//  Created by FanChunxing on 2019/11/20.
-//  Copyright © 2019 FanChunxing. All rights reserved.
+//  Created by ItghostFan on 2019/11/20.
+//  Copyright © 2019 ItghostFan. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>

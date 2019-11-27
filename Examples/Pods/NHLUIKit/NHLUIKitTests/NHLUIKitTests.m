@@ -1,18 +1,18 @@
 //
-//  NHLLifeBookTests.m
-//  NHLLifeBookTests
+//  NHLUIKitTests.m
+//  NHLUIKitTests
 //
-//  Created by ItghostFan on 2019/11/20.
+//  Created by ItghostFan on 2019/11/27.
 //  Copyright © 2019 ItghostFan. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface NHLLifeBookTests : XCTestCase
+@interface NHLUIKitTests : XCTestCase
 
 @end
 
-@implementation NHLLifeBookTests
+@implementation NHLUIKitTests
 
 - (void)setUp {
     // Put setup code here. This method is called before the invocation of each test method in the class.

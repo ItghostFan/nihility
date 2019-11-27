@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40629046143B5B45D0F73A29 /* libPods-NHLUIKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A29B4ECE905A07480910306D /* libPods-NHLUIKit.a */; };
+		EE019B99B04A5C0EF06B0FB7 /* libPods-NHLUIKitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 600607F3644FCB9911C8AC47 /* libPods-NHLUIKitTests.a */; };
+		F145840A238E5112005885FB /* NHLUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F1458409238E5112005885FB /* NHLUIKit.m */; };
+		F145840B238E5112005885FB /* NHLUIKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F1458408238E5112005885FB /* NHLUIKit.h */; };
+		F17D6076238E5A99009E1E57 /* NHLUIKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F17D6075238E5A99009E1E57 /* NHLUIKitTests.m */; };
+		F17D6078238E5A99009E1E57 /* libNHLUIKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1458405238E5112005885FB /* libNHLUIKit.a */; };
+		F17D6084238E5EEA009E1E57 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = F17D6083238E5EEA009E1E57 /* UIView+Frame.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F17D6079238E5A99009E1E57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F14583FD238E5112005885FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1458404238E5112005885FB;
+			remoteInfo = NHLUIKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F1458403238E5112005885FB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				F145840B238E5112005885FB /* NHLUIKit.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5F6FA88A37376906245FD72A /* Pods-App-NHLUIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-NHLUIKit.release.xcconfig"; path = "Target Support Files/Pods-App-NHLUIKit/Pods-App-NHLUIKit.release.xcconfig"; sourceTree = "<group>"; };
+		600607F3644FCB9911C8AC47 /* libPods-NHLUIKitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NHLUIKitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D8C22123FFD983F7159FF6B /* Pods-NHLUIKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NHLUIKitTests.release.xcconfig"; path = "Target Support Files/Pods-NHLUIKitTests/Pods-NHLUIKitTests.release.xcconfig"; sourceTree = "<group>"; };
+		9CD034E33697AB0D70F93BED /* Pods-App-NHLUIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-NHLUIKit.debug.xcconfig"; path = "Target Support Files/Pods-App-NHLUIKit/Pods-App-NHLUIKit.debug.xcconfig"; sourceTree = "<group>"; };
+		A29B4ECE905A07480910306D /* libPods-NHLUIKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NHLUIKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE0483BBBEF3751DC75EC143 /* Pods-NHLUIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NHLUIKit.debug.xcconfig"; path = "Target Support Files/Pods-NHLUIKit/Pods-NHLUIKit.debug.xcconfig"; sourceTree = "<group>"; };
+		D973589A4F7E93CE49716457 /* Pods-NHLUIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NHLUIKit.release.xcconfig"; path = "Target Support Files/Pods-NHLUIKit/Pods-NHLUIKit.release.xcconfig"; sourceTree = "<group>"; };
+		F1458405238E5112005885FB /* libNHLUIKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNHLUIKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1458408238E5112005885FB /* NHLUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHLUIKit.h; sourceTree = "<group>"; };
+		F1458409238E5112005885FB /* NHLUIKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHLUIKit.m; sourceTree = "<group>"; };
+		F17D6073238E5A99009E1E57 /* NHLUIKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NHLUIKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F17D6075238E5A99009E1E57 /* NHLUIKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHLUIKitTests.m; sourceTree = "<group>"; };
+		F17D6077238E5A99009E1E57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F17D6082238E5EEA009E1E57 /* UIView+Frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		F17D6083238E5EEA009E1E57 /* UIView+Frame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		F4504273D71FCC153D646457 /* Pods-NHLUIKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NHLUIKitTests.debug.xcconfig"; path = "Target Support Files/Pods-NHLUIKitTests/Pods-NHLUIKitTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1458402238E5112005885FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40629046143B5B45D0F73A29 /* libPods-NHLUIKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F17D6070238E5A99009E1E57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F17D6078238E5A99009E1E57 /* libNHLUIKit.a in Frameworks */,
+				EE019B99B04A5C0EF06B0FB7 /* libPods-NHLUIKitTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A6F2834379B1EFCEE012452 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A29B4ECE905A07480910306D /* libPods-NHLUIKit.a */,
+				600607F3644FCB9911C8AC47 /* libPods-NHLUIKitTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A664BC3DC7C0E59E12A8770D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE0483BBBEF3751DC75EC143 /* Pods-NHLUIKit.debug.xcconfig */,
+				D973589A4F7E93CE49716457 /* Pods-NHLUIKit.release.xcconfig */,
+				9CD034E33697AB0D70F93BED /* Pods-App-NHLUIKit.debug.xcconfig */,
+				5F6FA88A37376906245FD72A /* Pods-App-NHLUIKit.release.xcconfig */,
+				F4504273D71FCC153D646457 /* Pods-NHLUIKitTests.debug.xcconfig */,
+				6D8C22123FFD983F7159FF6B /* Pods-NHLUIKitTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../../NHLLifeBook/Pods;
+			sourceTree = "<group>";
+		};
+		F14583FC238E5112005885FB = {
+			isa = PBXGroup;
+			children = (
+				F1458407238E5112005885FB /* NHLUIKit */,
+				F17D6074238E5A99009E1E57 /* NHLUIKitTests */,
+				F1458406238E5112005885FB /* Products */,
+				A664BC3DC7C0E59E12A8770D /* Pods */,
+				3A6F2834379B1EFCEE012452 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F1458406238E5112005885FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1458405238E5112005885FB /* libNHLUIKit.a */,
+				F17D6073238E5A99009E1E57 /* NHLUIKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1458407238E5112005885FB /* NHLUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				F17D6081238E5DC4009E1E57 /* UIKit */,
+				F1458408238E5112005885FB /* NHLUIKit.h */,
+				F1458409238E5112005885FB /* NHLUIKit.m */,
+			);
+			path = NHLUIKit;
+			sourceTree = "<group>";
+		};
+		F17D6074238E5A99009E1E57 /* NHLUIKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				F17D6075238E5A99009E1E57 /* NHLUIKitTests.m */,
+				F17D6077238E5A99009E1E57 /* Info.plist */,
+			);
+			path = NHLUIKitTests;
+			sourceTree = "<group>";
+		};
+		F17D6081238E5DC4009E1E57 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				F17D6082238E5EEA009E1E57 /* UIView+Frame.h */,
+				F17D6083238E5EEA009E1E57 /* UIView+Frame.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1458404238E5112005885FB /* NHLUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F145840E238E5112005885FB /* Build configuration list for PBXNativeTarget "NHLUIKit" */;
+			buildPhases = (
+				2F9A74AC8C5597A22089FBBC /* [CP] Check Pods Manifest.lock */,
+				F1458401238E5112005885FB /* Sources */,
+				F1458402238E5112005885FB /* Frameworks */,
+				F1458403238E5112005885FB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NHLUIKit;
+			productName = NHLUIKit;
+			productReference = F1458405238E5112005885FB /* libNHLUIKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F17D6072238E5A99009E1E57 /* NHLUIKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F17D607D238E5A99009E1E57 /* Build configuration list for PBXNativeTarget "NHLUIKitTests" */;
+			buildPhases = (
+				CDDACD4CE7191FB8CCD75E6C /* [CP] Check Pods Manifest.lock */,
+				F17D606F238E5A99009E1E57 /* Sources */,
+				F17D6070238E5A99009E1E57 /* Frameworks */,
+				F17D6071238E5A99009E1E57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F17D607A238E5A99009E1E57 /* PBXTargetDependency */,
+			);
+			name = NHLUIKitTests;
+			productName = NHLUIKitTests;
+			productReference = F17D6073238E5A99009E1E57 /* NHLUIKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F14583FD238E5112005885FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NHL;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = ItghostFan;
+				TargetAttributes = {
+					F1458404238E5112005885FB = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					F17D6072238E5A99009E1E57 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+				};
+			};
+			buildConfigurationList = F1458400238E5112005885FB /* Build configuration list for PBXProject "NHLUIKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F14583FC238E5112005885FB;
+			productRefGroup = F1458406238E5112005885FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1458404238E5112005885FB /* NHLUIKit */,
+				F17D6072238E5A99009E1E57 /* NHLUIKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F17D6071238E5A99009E1E57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F9A74AC8C5597A22089FBBC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NHLUIKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDDACD4CE7191FB8CCD75E6C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NHLUIKitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1458401238E5112005885FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F17D6084238E5EEA009E1E57 /* UIView+Frame.m in Sources */,
+				F145840A238E5112005885FB /* NHLUIKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F17D606F238E5A99009E1E57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F17D6076238E5A99009E1E57 /* NHLUIKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F17D607A238E5A99009E1E57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1458404238E5112005885FB /* NHLUIKit */;
+			targetProxy = F17D6079238E5A99009E1E57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F145840C238E5112005885FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../../NHLLifeBook/Pods/ReactiveCocoa\"",
+					"\"$(SRCROOT)/../../NHLLifeBook/Pods/Masonry\"",
+				);
+			};
+			name = Debug;
+		};
+		F145840D238E5112005885FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../../NHLLifeBook/Pods/ReactiveCocoa\"",
+					"\"$(SRCROOT)/../../NHLLifeBook/Pods/Masonry\"",
+				);
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F145840F238E5112005885FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE0483BBBEF3751DC75EC143 /* Pods-NHLUIKit.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XG9433FZR9;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1458410238E5112005885FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D973589A4F7E93CE49716457 /* Pods-NHLUIKit.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XG9433FZR9;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F17D607B238E5A99009E1E57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4504273D71FCC153D646457 /* Pods-NHLUIKitTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XG9433FZR9;
+				INFOPLIST_FILE = NHLUIKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nihility.NHLUIKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F17D607C238E5A99009E1E57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D8C22123FFD983F7159FF6B /* Pods-NHLUIKitTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XG9433FZR9;
+				INFOPLIST_FILE = NHLUIKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nihility.NHLUIKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1458400238E5112005885FB /* Build configuration list for PBXProject "NHLUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F145840C238E5112005885FB /* Debug */,
+				F145840D238E5112005885FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F145840E238E5112005885FB /* Build configuration list for PBXNativeTarget "NHLUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F145840F238E5112005885FB /* Debug */,
+				F1458410238E5112005885FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F17D607D238E5A99009E1E57 /* Build configuration list for PBXNativeTarget "NHLUIKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F17D607B238E5A99009E1E57 /* Debug */,
+				F17D607C238E5A99009E1E57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F14583FD238E5112005885FB /* Project object */;
+}

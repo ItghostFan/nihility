@@ -11,3 +11,16 @@ Examples/NHLLifeBook/NHLLifeBook.xcodeproj/project.xcworkspace
 Examples/NHLLifeBook/Podfile.lock
 Examples/NHLLifeBook/Pods/*
 Examples/NHLLifeBook/NHLLifeBook.xcworkspace
+
+Examples/Pods/NHLUIKit/NHLUIKit.xcodeproj/xcuserdata/*
+Examples/Pods/NHLUIKit/NHLUIKit.xcodeproj/project.xcworkspace
+Examples/Pods/NHLUIKit/Podfile.lock
+Examples/Pods/NHLUIKit/Pods/*
+Examples/Pods/NHLUIKit/NHLUIKit.xcworkspace
+
+Examples/Pods/NHLFoundation/NHLFoundation.xcodeproj/xcuserdata/*
+Examples/Pods/NHLFoundation/NHLFoundation.xcodeproj/project.xcworkspace
+Examples/Pods/NHLFoundation/Podfile.lock
+Examples/Pods/NHLFoundation/Pods/*
+Examples/Pods/NHLFoundation/NHLFoundation.xcworkspace
+

@@ -3,19 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A83EC68E0AD8541C547F2458 /* Pods_NHLLifeBookTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA09A658006A6F212C531CA9 /* Pods_NHLLifeBookTests.framework */; };
+		C5A92852A9B2FB5274C49813 /* Pods_NHLLifeBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F26132D1E91C54EBDB359D67 /* Pods_NHLLifeBook.framework */; };
+		C5CBF0B59180DD379D6A1281 /* Pods_NHLLifeBookUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD75B8BE7DB3097B197A6F9 /* Pods_NHLLifeBookUITests.framework */; };
 		F150B4E72384F22F00DEBBEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F150B4E62384F22F00DEBBEA /* AppDelegate.m */; };
-		F150B4EA2384F22F00DEBBEA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F150B4E92384F22F00DEBBEA /* SceneDelegate.m */; };
-		F150B4ED2384F22F00DEBBEA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F150B4EC2384F22F00DEBBEA /* ViewController.m */; };
-		F150B4F02384F22F00DEBBEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F150B4EE2384F22F00DEBBEA /* Main.storyboard */; };
 		F150B4F22384F23100DEBBEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F150B4F12384F23100DEBBEA /* Assets.xcassets */; };
 		F150B4F52384F23100DEBBEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F150B4F32384F23100DEBBEA /* LaunchScreen.storyboard */; };
 		F150B4F82384F23100DEBBEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F150B4F72384F23100DEBBEA /* main.m */; };
 		F150B5022384F23100DEBBEA /* NHLLifeBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F150B5012384F23100DEBBEA /* NHLLifeBookTests.m */; };
 		F150B50D2384F23100DEBBEA /* NHLLifeBookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F150B50C2384F23100DEBBEA /* NHLLifeBookUITests.m */; };
+		F17D6087238E6063009E1E57 /* libNHLFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F17D6085238E6063009E1E57 /* libNHLFoundation.a */; };
+		F17D6088238E6063009E1E57 /* libNHLUIKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F17D6086238E6063009E1E57 /* libNHLUIKit.a */; };
+		F17D608F238E6462009E1E57 /* NHLUIElement.m in Sources */ = {isa = PBXBuildFile; fileRef = F17D608E238E6462009E1E57 /* NHLUIElement.m */; };
+		F17D6092238E64AE009E1E57 /* NHLUIPage.m in Sources */ = {isa = PBXBuildFile; fileRef = F17D6091238E64AE009E1E57 /* NHLUIPage.m */; };
+		F17D6095238E6743009E1E57 /* NHLElementBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = F17D6094238E6743009E1E57 /* NHLElementBuilder.m */; };
+		F17D6097238E68AD009E1E57 /* ElementBuilder.plist in Resources */ = {isa = PBXBuildFile; fileRef = F17D6096238E68AD009E1E57 /* ElementBuilder.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +42,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00B6562B56E63BB8E08976EE /* Pods-NHLLifeBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NHLLifeBook.release.xcconfig"; path = "Target Support Files/Pods-NHLLifeBook/Pods-NHLLifeBook.release.xcconfig"; sourceTree = "<group>"; };
+		6F3393F375D6E18B0AB50E4E /* Pods-NHLLifeBookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NHLLifeBookTests.release.xcconfig"; path = "Target Support Files/Pods-NHLLifeBookTests/Pods-NHLLifeBookTests.release.xcconfig"; sourceTree = "<group>"; };
+		732C362A3FF981A82BBBA50F /* Pods-App-NHLLifeBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-NHLLifeBook.debug.xcconfig"; path = "Target Support Files/Pods-App-NHLLifeBook/Pods-App-NHLLifeBook.debug.xcconfig"; sourceTree = "<group>"; };
+		746CC22E83CF2D64927A98AA /* Pods-NHLLifeBookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NHLLifeBookTests.debug.xcconfig"; path = "Target Support Files/Pods-NHLLifeBookTests/Pods-NHLLifeBookTests.debug.xcconfig"; sourceTree = "<group>"; };
+		78CD9F556B35144CE5B17384 /* Pods-NHLLifeBookUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NHLLifeBookUITests.release.xcconfig"; path = "Target Support Files/Pods-NHLLifeBookUITests/Pods-NHLLifeBookUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7AB64CCA20F092B553332380 /* Pods-NHLLifeBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NHLLifeBook.debug.xcconfig"; path = "Target Support Files/Pods-NHLLifeBook/Pods-NHLLifeBook.debug.xcconfig"; sourceTree = "<group>"; };
+		8C58660CF46FC7685E4E8FED /* Pods-NHLLifeBookUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NHLLifeBookUITests.debug.xcconfig"; path = "Target Support Files/Pods-NHLLifeBookUITests/Pods-NHLLifeBookUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D79B97EC1E13876624E6214 /* Pods-App-NHLLifeBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-NHLLifeBook.release.xcconfig"; path = "Target Support Files/Pods-App-NHLLifeBook/Pods-App-NHLLifeBook.release.xcconfig"; sourceTree = "<group>"; };
+		AA09A658006A6F212C531CA9 /* Pods_NHLLifeBookTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NHLLifeBookTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F13D8493238E6F77005FA153 /* NHLLifeBook.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHLLifeBook.pch; sourceTree = "<group>"; };
 		F150B4E22384F22F00DEBBEA /* NHLLifeBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NHLLifeBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F150B4E52384F22F00DEBBEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F150B4E62384F22F00DEBBEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F150B4E82384F22F00DEBBEA /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		F150B4E92384F22F00DEBBEA /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		F150B4EB2384F22F00DEBBEA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F150B4EC2384F22F00DEBBEA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F150B4EF2384F22F00DEBBEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F150B4F12384F23100DEBBEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F150B4F42384F23100DEBBEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F150B4F62384F23100DEBBEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +65,17 @@
 		F150B5082384F23100DEBBEA /* NHLLifeBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NHLLifeBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F150B50C2384F23100DEBBEA /* NHLLifeBookUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHLLifeBookUITests.m; sourceTree = "<group>"; };
 		F150B50E2384F23100DEBBEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F17D6085238E6063009E1E57 /* libNHLFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libNHLFoundation.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F17D6086238E6063009E1E57 /* libNHLUIKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libNHLUIKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F17D608D238E6462009E1E57 /* NHLUIElement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHLUIElement.h; sourceTree = "<group>"; };
+		F17D608E238E6462009E1E57 /* NHLUIElement.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHLUIElement.m; sourceTree = "<group>"; };
+		F17D6090238E64AE009E1E57 /* NHLUIPage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHLUIPage.h; sourceTree = "<group>"; };
+		F17D6091238E64AE009E1E57 /* NHLUIPage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHLUIPage.m; sourceTree = "<group>"; };
+		F17D6093238E6743009E1E57 /* NHLElementBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHLElementBuilder.h; sourceTree = "<group>"; };
+		F17D6094238E6743009E1E57 /* NHLElementBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHLElementBuilder.m; sourceTree = "<group>"; };
+		F17D6096238E68AD009E1E57 /* ElementBuilder.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ElementBuilder.plist; sourceTree = "<group>"; };
+		F26132D1E91C54EBDB359D67 /* Pods_NHLLifeBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NHLLifeBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDD75B8BE7DB3097B197A6F9 /* Pods_NHLLifeBookUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NHLLifeBookUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +83,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F17D6088238E6063009E1E57 /* libNHLUIKit.a in Frameworks */,
+				C5A92852A9B2FB5274C49813 /* Pods_NHLLifeBook.framework in Frameworks */,
+				F17D6087238E6063009E1E57 /* libNHLFoundation.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A83EC68E0AD8541C547F2458 /* Pods_NHLLifeBookTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,12 +101,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5CBF0B59180DD379D6A1281 /* Pods_NHLLifeBookUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E976AF27DCA16D941DDA353 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7AB64CCA20F092B553332380 /* Pods-NHLLifeBook.debug.xcconfig */,
+				00B6562B56E63BB8E08976EE /* Pods-NHLLifeBook.release.xcconfig */,
+				746CC22E83CF2D64927A98AA /* Pods-NHLLifeBookTests.debug.xcconfig */,
+				6F3393F375D6E18B0AB50E4E /* Pods-NHLLifeBookTests.release.xcconfig */,
+				8C58660CF46FC7685E4E8FED /* Pods-NHLLifeBookUITests.debug.xcconfig */,
+				78CD9F556B35144CE5B17384 /* Pods-NHLLifeBookUITests.release.xcconfig */,
+				732C362A3FF981A82BBBA50F /* Pods-App-NHLLifeBook.debug.xcconfig */,
+				9D79B97EC1E13876624E6214 /* Pods-App-NHLLifeBook.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9D27DC288147B8D36BBB1931 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F17D6085238E6063009E1E57 /* libNHLFoundation.a */,
+				F17D6086238E6063009E1E57 /* libNHLUIKit.a */,
+				AA09A658006A6F212C531CA9 /* Pods_NHLLifeBookTests.framework */,
+				FDD75B8BE7DB3097B197A6F9 /* Pods_NHLLifeBookUITests.framework */,
+				F26132D1E91C54EBDB359D67 /* Pods_NHLLifeBook.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F150B4D92384F22F00DEBBEA = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +142,8 @@
 				F150B5002384F23100DEBBEA /* NHLLifeBookTests */,
 				F150B50B2384F23100DEBBEA /* NHLLifeBookUITests */,
 				F150B4E32384F22F00DEBBEA /* Products */,
+				1E976AF27DCA16D941DDA353 /* Pods */,
+				9D27DC288147B8D36BBB1931 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,17 +160,15 @@
 		F150B4E42384F22F00DEBBEA /* NHLLifeBook */ = {
 			isa = PBXGroup;
 			children = (
+				F17D6080238E5D2F009E1E57 /* ViewModel */,
+				F17D607F238E5D21009E1E57 /* UI */,
 				F150B4E52384F22F00DEBBEA /* AppDelegate.h */,
 				F150B4E62384F22F00DEBBEA /* AppDelegate.m */,
-				F150B4E82384F22F00DEBBEA /* SceneDelegate.h */,
-				F150B4E92384F22F00DEBBEA /* SceneDelegate.m */,
-				F150B4EB2384F22F00DEBBEA /* ViewController.h */,
-				F150B4EC2384F22F00DEBBEA /* ViewController.m */,
-				F150B4EE2384F22F00DEBBEA /* Main.storyboard */,
 				F150B4F12384F23100DEBBEA /* Assets.xcassets */,
 				F150B4F32384F23100DEBBEA /* LaunchScreen.storyboard */,
 				F150B4F62384F23100DEBBEA /* Info.plist */,
 				F150B4F72384F23100DEBBEA /* main.m */,
+				F13D8493238E6F77005FA153 /* NHLLifeBook.pch */,
 			);
 			path = NHLLifeBook;
 			sourceTree = "<group>";
@@ -137,6 +191,43 @@
 			path = NHLLifeBookUITests;
 			sourceTree = "<group>";
 		};
+		F17D607E238E5D0D009E1E57 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				F17D6093238E6743009E1E57 /* NHLElementBuilder.h */,
+				F17D6094238E6743009E1E57 /* NHLElementBuilder.m */,
+				F17D6096238E68AD009E1E57 /* ElementBuilder.plist */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		F17D607F238E5D21009E1E57 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				F17D608C238E63F8009E1E57 /* Element */,
+				F17D607E238E5D0D009E1E57 /* Builder */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		F17D6080238E5D2F009E1E57 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F17D608C238E63F8009E1E57 /* Element */ = {
+			isa = PBXGroup;
+			children = (
+				F17D608D238E6462009E1E57 /* NHLUIElement.h */,
+				F17D608E238E6462009E1E57 /* NHLUIElement.m */,
+				F17D6090238E64AE009E1E57 /* NHLUIPage.h */,
+				F17D6091238E64AE009E1E57 /* NHLUIPage.m */,
+			);
+			path = Element;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +235,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F150B5112384F23100DEBBEA /* Build configuration list for PBXNativeTarget "NHLLifeBook" */;
 			buildPhases = (
+				7B2D5BC113CAD5713F5ABBB3 /* [CP] Check Pods Manifest.lock */,
 				F150B4DE2384F22F00DEBBEA /* Sources */,
 				F150B4DF2384F22F00DEBBEA /* Frameworks */,
 				F150B4E02384F22F00DEBBEA /* Resources */,
+				0D576BEFAC763D5B4A912E96 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -161,6 +254,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F150B5142384F23100DEBBEA /* Build configuration list for PBXNativeTarget "NHLLifeBookTests" */;
 			buildPhases = (
+				28265A8EF5960FE5E6080976 /* [CP] Check Pods Manifest.lock */,
 				F150B4F92384F23100DEBBEA /* Sources */,
 				F150B4FA2384F23100DEBBEA /* Frameworks */,
 				F150B4FB2384F23100DEBBEA /* Resources */,
@@ -179,6 +273,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F150B5172384F23100DEBBEA /* Build configuration list for PBXNativeTarget "NHLLifeBookUITests" */;
 			buildPhases = (
+				EE567CBD07F7E97CD2A04CE6 /* [CP] Check Pods Manifest.lock */,
 				F150B5042384F23100DEBBEA /* Sources */,
 				F150B5052384F23100DEBBEA /* Frameworks */,
 				F150B5062384F23100DEBBEA /* Resources */,
@@ -199,8 +294,9 @@
 		F150B4DA2384F22F00DEBBEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = NHL;
 				LastUpgradeCheck = 1120;
-				ORGANIZATIONNAME = FanChunxing;
+				ORGANIZATIONNAME = ItghostFan;
 				TargetAttributes = {
 					F150B4E12384F22F00DEBBEA = {
 						CreatedOnToolsVersion = 11.2;
@@ -242,7 +338,7 @@
 			files = (
 				F150B4F52384F23100DEBBEA /* LaunchScreen.storyboard in Resources */,
 				F150B4F22384F23100DEBBEA /* Assets.xcassets in Resources */,
-				F150B4F02384F22F00DEBBEA /* Main.storyboard in Resources */,
+				F17D6097238E68AD009E1E57 /* ElementBuilder.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,15 +358,102 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0D576BEFAC763D5B4A912E96 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NHLLifeBook/Pods-NHLLifeBook-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NHLLifeBook/Pods-NHLLifeBook-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NHLLifeBook/Pods-NHLLifeBook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28265A8EF5960FE5E6080976 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NHLLifeBookTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B2D5BC113CAD5713F5ABBB3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NHLLifeBook-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE567CBD07F7E97CD2A04CE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NHLLifeBookUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F150B4DE2384F22F00DEBBEA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F150B4ED2384F22F00DEBBEA /* ViewController.m in Sources */,
+				F17D6095238E6743009E1E57 /* NHLElementBuilder.m in Sources */,
 				F150B4E72384F22F00DEBBEA /* AppDelegate.m in Sources */,
 				F150B4F82384F23100DEBBEA /* main.m in Sources */,
-				F150B4EA2384F22F00DEBBEA /* SceneDelegate.m in Sources */,
+				F17D608F238E6462009E1E57 /* NHLUIElement.m in Sources */,
+				F17D6092238E64AE009E1E57 /* NHLUIPage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,14 +489,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F150B4EE2384F22F00DEBBEA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F150B4EF2384F22F00DEBBEA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F150B4F32384F23100DEBBEA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -375,7 +550,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -427,7 +602,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -437,11 +612,14 @@
 		};
 		F150B5122384F23100DEBBEA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AB64CCA20F092B553332380 /* Pods-NHLLifeBook.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XG9433FZR9;
+				GCC_PREFIX_HEADER = ./NHLLifeBook/NHLLifeBook.pch;
 				INFOPLIST_FILE = NHLLifeBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,11 +632,14 @@
 		};
 		F150B5132384F23100DEBBEA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00B6562B56E63BB8E08976EE /* Pods-NHLLifeBook.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XG9433FZR9;
+				GCC_PREFIX_HEADER = ./NHLLifeBook/NHLLifeBook.pch;
 				INFOPLIST_FILE = NHLLifeBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -471,6 +652,7 @@
 		};
 		F150B5152384F23100DEBBEA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 746CC22E83CF2D64927A98AA /* Pods-NHLLifeBookTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -491,6 +673,7 @@
 		};
 		F150B5162384F23100DEBBEA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F3393F375D6E18B0AB50E4E /* Pods-NHLLifeBookTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -511,6 +694,7 @@
 		};
 		F150B5182384F23100DEBBEA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C58660CF46FC7685E4E8FED /* Pods-NHLLifeBookUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XG9433FZR9;
@@ -529,6 +713,7 @@
 		};
 		F150B5192384F23100DEBBEA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78CD9F556B35144CE5B17384 /* Pods-NHLLifeBookUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XG9433FZR9;
