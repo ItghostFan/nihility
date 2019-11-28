@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface NHLUIPage : NHLUIElement
 
+@property (strong, nonatomic) NSMutableDictionary<__kindof NHLElementObjectName *, __kindof NHLUIElement *> *subelements;
+
 @end
 
 NS_ASSUME_NONNULL_END

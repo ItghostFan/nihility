@@ -18,4 +18,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
+#define NHLUIBuild(cls, makeConstraints, parent) ((cls *)[NHLUIBuilder viewMakeConstraints:makeConstraints \
+superview:parent \
+metaClass:cls.class])
+
 NS_ASSUME_NONNULL_END

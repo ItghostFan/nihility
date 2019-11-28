@@ -24,7 +24,7 @@
     return self;
 }
 
-- (NHLUIElement *)buildElement:(NSString *)element {
+- (NHLUIElement *)buildElement:(NSString *)element attributes:(NSDictionary *)attributes {
     NSAssert(element, @"element is null!");
     NHLUIElement *uiElement = [NHLUIElement new];
 #ifdef DEBUG

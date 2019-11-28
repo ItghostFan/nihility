@@ -8,6 +8,8 @@
 
 #import "NHLElementViewModel.h"
 
+#import "NHLElementFrameCell.h"
+
 @interface NHLElementViewModel ()
 @end
 
@@ -19,9 +21,18 @@
 
 - (void)setTableView:(UITableView *)tableView {
     _tableView = tableView;
+    [tableView registerClass:NHLElementFrameCell.class forCellReuseIdentifier:NSStringFromClass(NHLElementFrameCell.class)];
 }
 
 #pragma mark - UITableViewDataSource
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return self.models.count;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return [tableView dequeueReusableCellWithIdentifier:NSStringFromClass(NHLElementFrameCell.class)];
+}
 
 #pragma mark - UITableViewDelegate
 

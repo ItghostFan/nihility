@@ -10,9 +10,19 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+@class NHLElementFrameModel;
+@class NHLElementBackgroundModel;
+
+typedef NSString NHLElementObjectName;
+
 @interface NHLUIElement : UIView
 
 @property (weak, nonatomic) id view;
+
+@property (strong, nonatomic) NSString *objectName;
+@property (weak, nonatomic) NSString *superName;
+@property (strong, nonatomic) NHLElementFrameModel *frameModel;
+@property (strong, nonatomic) NHLElementBackgroundModel *backgroundModel;
 
 @end
 

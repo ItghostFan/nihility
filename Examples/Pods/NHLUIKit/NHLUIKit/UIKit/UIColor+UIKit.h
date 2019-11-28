@@ -40,6 +40,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIColor (UIKit)
 
+/// Build color from html color.
+/// @param rgba #RRGGBBAA
++ (instancetype)colorWithRGBAString:(NSString *)rgba;
+
 @end
 
 NS_ASSUME_NONNULL_END

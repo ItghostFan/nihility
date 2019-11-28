@@ -26,6 +26,8 @@
 		F150B4F82384F23100DEBBEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F150B4F72384F23100DEBBEA /* main.m */; };
 		F150B5022384F23100DEBBEA /* NHLLifeBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F150B5012384F23100DEBBEA /* NHLLifeBookTests.m */; };
 		F150B50D2384F23100DEBBEA /* NHLLifeBookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F150B50C2384F23100DEBBEA /* NHLLifeBookUITests.m */; };
+		F1575BF4238FAD0500544E0C /* NHLElementBackgroundModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F1575BF3238FAD0500544E0C /* NHLElementBackgroundModel.m */; };
+		F1575BF7238FD2DD00544E0C /* NHLUIBook.m in Sources */ = {isa = PBXBuildFile; fileRef = F1575BF6238FD2DD00544E0C /* NHLUIBook.m */; };
 		F17D6087238E6063009E1E57 /* libNHLFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F17D6085238E6063009E1E57 /* libNHLFoundation.a */; };
 		F17D6088238E6063009E1E57 /* libNHLUIKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F17D6086238E6063009E1E57 /* libNHLUIKit.a */; };
 		F17D608F238E6462009E1E57 /* NHLUIElement.m in Sources */ = {isa = PBXBuildFile; fileRef = F17D608E238E6462009E1E57 /* NHLUIElement.m */; };
@@ -94,6 +96,10 @@
 		F150B5082384F23100DEBBEA /* NHLLifeBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NHLLifeBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F150B50C2384F23100DEBBEA /* NHLLifeBookUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHLLifeBookUITests.m; sourceTree = "<group>"; };
 		F150B50E2384F23100DEBBEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1575BF2238FAD0500544E0C /* NHLElementBackgroundModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHLElementBackgroundModel.h; sourceTree = "<group>"; };
+		F1575BF3238FAD0500544E0C /* NHLElementBackgroundModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHLElementBackgroundModel.m; sourceTree = "<group>"; };
+		F1575BF5238FD2DD00544E0C /* NHLUIBook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHLUIBook.h; sourceTree = "<group>"; };
+		F1575BF6238FD2DD00544E0C /* NHLUIBook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHLUIBook.m; sourceTree = "<group>"; };
 		F17D6085238E6063009E1E57 /* libNHLFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libNHLFoundation.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F17D6086238E6063009E1E57 /* libNHLUIKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libNHLUIKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F17D608D238E6462009E1E57 /* NHLUIElement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHLUIElement.h; sourceTree = "<group>"; };
@@ -194,6 +200,8 @@
 			children = (
 				F13D84AC238E7FEA005FA153 /* NHLElementFrameModel.h */,
 				F13D84AD238E7FEA005FA153 /* NHLElementFrameModel.m */,
+				F1575BF2238FAD0500544E0C /* NHLElementBackgroundModel.h */,
+				F1575BF3238FAD0500544E0C /* NHLElementBackgroundModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -310,6 +318,8 @@
 				F13D8496238E7775005FA153 /* Panel */,
 				F17D608C238E63F8009E1E57 /* Element */,
 				F17D607E238E5D0D009E1E57 /* Builder */,
+				F1575BF5238FD2DD00544E0C /* NHLUIBook.h */,
+				F1575BF6238FD2DD00544E0C /* NHLUIBook.m */,
 			);
 			path = LifeBook;
 			sourceTree = "<group>";
@@ -554,6 +564,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1575BF7238FD2DD00544E0C /* NHLUIBook.m in Sources */,
 				F13D84BE238E877C005FA153 /* NHLMakeBookViewModel.m in Sources */,
 				F13D84B6238E825C005FA153 /* NHLUIBuilder.m in Sources */,
 				F17D6095238E6743009E1E57 /* NHLElementBuilder.m in Sources */,
@@ -564,6 +575,7 @@
 				F150B4F82384F23100DEBBEA /* main.m in Sources */,
 				F17D608F238E6462009E1E57 /* NHLUIElement.m in Sources */,
 				F13D849C238E77CC005FA153 /* NHLTextPanel.m in Sources */,
+				F1575BF4238FAD0500544E0C /* NHLElementBackgroundModel.m in Sources */,
 				F17D6092238E64AE009E1E57 /* NHLUIPage.m in Sources */,
 				F13D84AB238E7E3A005FA153 /* NHLElementViewModel.m in Sources */,
 				F13D849F238E77DB005FA153 /* NHLImagePanel.m in Sources */,

@@ -16,7 +16,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// Build element.
 /// @param element NSString in EelementBuilder.plist keys.
-- (NHLUIElement *)buildElement:(NSString *)element;
+/// @param attributes Element attributes.
+- (NHLUIElement *)buildElement:(NSString *)element attributes:(NSDictionary *)attributes;
 
 @end
 
