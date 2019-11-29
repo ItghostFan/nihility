@@ -2,7 +2,7 @@
 //  UIColor+UIKit.h
 //  NHLUIKit
 //
-//  Created by FanChunxing on 2019/11/27.
+//  Created by ItghostFan on 2019/11/27.
 //  Copyright © 2019 ItghostFan. All rights reserved.
 //
 
@@ -38,11 +38,17 @@ NS_ASSUME_NONNULL_BEGIN
 #define COLOR_RGB_A(rgb, a) \
 [UIColor colorWithRed:(rgb >> 16) / 255.0f green:((rgb >> 8) & 0xFF) / 255.0f blue:((rgb) & 0xFF) / 255.0f alpha:a]
 
+#define COLOR_HTML_RGBA(rgba) \
+[[UIColor alloc] initWithHtmlRGBA:rgba]
+
+#define COLOR_HTML_RGB(rgb) \
+[[UIColor alloc] initWithHtmlRGBA:[NSString stringWithFormat:@"%@FF", rgb]]
+
 @interface UIColor (UIKit)
 
 /// Build color from html color.
 /// @param rgba #RRGGBBAA
-+ (instancetype)colorWithRGBAString:(NSString *)rgba;
+- (instancetype)initWithHtmlRGBA:(NSString *)rgba;
 
 @end
 

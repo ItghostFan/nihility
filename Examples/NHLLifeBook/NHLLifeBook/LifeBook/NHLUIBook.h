@@ -17,6 +17,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (strong, nonatomic) NHLElementFrameModel *frameModel;
 
+- (void)addPage:(NHLUIPage *)page;
+
 @end
 
 NS_ASSUME_NONNULL_END

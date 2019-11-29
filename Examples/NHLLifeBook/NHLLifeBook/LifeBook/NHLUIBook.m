@@ -20,6 +20,7 @@
 
 - (instancetype)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
+        self.backgroundColor = COLOR_HTML_RGB(@"#00FF00");
         self.pages = [NSMutableArray array];
         self.pageView = NHLUIBuild(UIScrollView, ^(MASConstraintMaker * _Nonnull make) {
             make.edges.mas_equalTo(UIEdgeInsetsZero);
@@ -29,6 +30,19 @@
 }
 
 - (void)addPage:(NHLUIPage *)page {
+    CGFloat left = self.pages.count * self.frameModel.width.floatValue;
+    CGFloat top = 0.0f;
+    CGFloat width = self.frameModel.width.floatValue;
+    CGFloat height = self.frameModel.height.floatValue;
+    NHLElementFrameModel *frameModel = [NHLElementFrameModel new];
+    frameModel.left = @(left);
+    frameModel.top = @(top);
+    frameModel.width = self.frameModel.width;
+    frameModel.height = self.frameModel.height;
+    page.frameModel = frameModel;
+    [self.pages addObject:page];
+    [self.pageView addSubview:page];
+    self.pageView.contentSize = CGSizeMake(self.pages.count * width, height);
 }
 
 #pragma mark - getter

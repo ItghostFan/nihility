@@ -2,7 +2,7 @@
 //  NHLUIBuilder.h
 //  NHLLifeBook
 //
-//  Created by FanChunxing on 2019/11/27.
+//  Created by ItghostFan on 2019/11/27.
 //  Copyright © 2019 ItghostFan. All rights reserved.
 //
 
@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface NHLUIBuilder : NSObject
 
-+ (__weak UIView *)viewMakeConstraints:(void(NS_NOESCAPE ^)(MASConstraintMaker *make))makeConstraints
++ (__weak UIView *)viewMakeConstraints:(void(NS_NOESCAPE ^ __nullable)(MASConstraintMaker *make))makeConstraints
                              superview:(UIView *)superview
                              metaClass:(Class)metaClass;
 

@@ -2,7 +2,7 @@
 //  UIColor+UIKit.m
 //  NHLUIKit
 //
-//  Created by FanChunxing on 2019/11/27.
+//  Created by ItghostFan on 2019/11/27.
 //  Copyright © 2019 ItghostFan. All rights reserved.
 //
 
@@ -10,17 +10,14 @@
 
 @implementation UIColor (UIKit)
 
-+ (instancetype)colorWithRGBAString:(NSString *)rgba {
+- (instancetype)initWithHtmlRGBA:(NSString *)rgba {
+    rgba = [rgba stringByReplacingOccurrencesOfString:@"#" withString:@""];
     NSScanner *scanner = [NSScanner scannerWithString:rgba];
-    uint32_t r;
-    uint32_t g;
-    uint32_t b;
-    uint32_t a = 255.0f;
-    [scanner scanHexInt:&r];
-    [scanner scanHexInt:&g];
-    [scanner scanHexInt:&b];
-    [scanner scanHexInt:&a];
-    return [UIColor colorWithRed:r / 255.0f green:g / 255.0f blue:b / 255.0f alpha:a / 255.0f];
+    uint32_t rgbaHex;
+    [scanner scanHexInt:&rgbaHex];
+    if (self = [self initWithRed:(rgbaHex >> 24) / 255.0f green:((rgbaHex >> 16) & 0xFF) / 255.0f blue:((rgbaHex >> 8) & 0xFF) / 255.0f alpha:(rgbaHex & 0xFF) / 255.0f]) {
+    }
+    return self;
 }
 
 @end

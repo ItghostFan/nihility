@@ -13,6 +13,28 @@
 
 @implementation NHLUIElement
 
+- (instancetype)initWithFrame:(CGRect)frame {
+    if (self = [super initWithFrame:frame]) {
+        #ifdef DEBUG
+            NSMutableDictionary *colors = [NSMutableDictionary new];
+            colors[@0] = COLOR_RGB(0x7FFFD4);
+            colors[@1] = COLOR_RGB(0xF5F5DC);
+            colors[@2] = COLOR_RGB(0xDEB887);
+            colors[@3] = COLOR_RGB(0x6495ED);
+            colors[@4] = COLOR_RGB(0x008B8B);
+            colors[@5] = COLOR_RGB(0xE9967A);
+            colors[@6] = COLOR_RGB(0x1E90FF);
+            colors[@7] = COLOR_RGB(0xADFF2F);
+            colors[@8] = COLOR_RGB(0xE6E6FA);
+            colors[@9] = COLOR_RGB(0x87CEFA);
+            self.backgroundColor = colors[@(random() % 10)];
+        #endif
+    }
+    return self;
+}
+
+#pragma mark - setter
+
 - (void)setView:(id)view {
     _view = view;
     [self addSubview:view];
@@ -52,7 +74,7 @@
         NSNumber *backgroundImageMode)
         = tuple;
         @strongify(self);
-        self.backgroundColor = [UIColor colorWithRGBAString:backgroundColor];
+        self.backgroundColor = COLOR_HTML_RGBA(backgroundColor);
         
         CALayerContentsGravity gravity;
         switch (backgroundImageMode.integerValue) {

@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		40629046143B5B45D0F73A29 /* libPods-NHLUIKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A29B4ECE905A07480910306D /* libPods-NHLUIKit.a */; };
 		EE019B99B04A5C0EF06B0FB7 /* libPods-NHLUIKitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 600607F3644FCB9911C8AC47 /* libPods-NHLUIKitTests.a */; };
-		F13D84A3238E7925005FA153 /* UIColor+UIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F13D84A2238E7925005FA153 /* UIColor+UIKit.m */; };
 		F145840A238E5112005885FB /* NHLUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F1458409238E5112005885FB /* NHLUIKit.m */; };
 		F145840B238E5112005885FB /* NHLUIKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F1458408238E5112005885FB /* NHLUIKit.h */; };
+		F1575BF82390B8B000544E0C /* UIColor+UIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F13D84A2238E7925005FA153 /* UIColor+UIKit.m */; };
 		F17D6076238E5A99009E1E57 /* NHLUIKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F17D6075238E5A99009E1E57 /* NHLUIKitTests.m */; };
 		F17D6078238E5A99009E1E57 /* libNHLUIKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1458405238E5112005885FB /* libNHLUIKit.a */; };
 		F17D6084238E5EEA009E1E57 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = F17D6083238E5EEA009E1E57 /* UIView+Frame.m */; };
@@ -294,8 +294,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1575BF82390B8B000544E0C /* UIColor+UIKit.m in Sources */,
 				F17D6084238E5EEA009E1E57 /* UIView+Frame.m in Sources */,
-				F13D84A3238E7925005FA153 /* UIColor+UIKit.m in Sources */,
 				F145840A238E5112005885FB /* NHLUIKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

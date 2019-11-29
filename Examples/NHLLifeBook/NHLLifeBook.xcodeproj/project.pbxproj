@@ -28,12 +28,12 @@
 		F150B50D2384F23100DEBBEA /* NHLLifeBookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F150B50C2384F23100DEBBEA /* NHLLifeBookUITests.m */; };
 		F1575BF4238FAD0500544E0C /* NHLElementBackgroundModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F1575BF3238FAD0500544E0C /* NHLElementBackgroundModel.m */; };
 		F1575BF7238FD2DD00544E0C /* NHLUIBook.m in Sources */ = {isa = PBXBuildFile; fileRef = F1575BF6238FD2DD00544E0C /* NHLUIBook.m */; };
-		F17D6087238E6063009E1E57 /* libNHLFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F17D6085238E6063009E1E57 /* libNHLFoundation.a */; };
-		F17D6088238E6063009E1E57 /* libNHLUIKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F17D6086238E6063009E1E57 /* libNHLUIKit.a */; };
 		F17D608F238E6462009E1E57 /* NHLUIElement.m in Sources */ = {isa = PBXBuildFile; fileRef = F17D608E238E6462009E1E57 /* NHLUIElement.m */; };
 		F17D6092238E64AE009E1E57 /* NHLUIPage.m in Sources */ = {isa = PBXBuildFile; fileRef = F17D6091238E64AE009E1E57 /* NHLUIPage.m */; };
 		F17D6095238E6743009E1E57 /* NHLElementBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = F17D6094238E6743009E1E57 /* NHLElementBuilder.m */; };
 		F17D6097238E68AD009E1E57 /* ElementBuilder.plist in Resources */ = {isa = PBXBuildFile; fileRef = F17D6096238E68AD009E1E57 /* ElementBuilder.plist */; };
+		F1E8C2842390C22000E854D7 /* libNHLFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F17D6085238E6063009E1E57 /* libNHLFoundation.a */; };
+		F1E8C2852390C22000E854D7 /* libNHLUIKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F17D6086238E6063009E1E57 /* libNHLUIKit.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -118,9 +118,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F17D6088238E6063009E1E57 /* libNHLUIKit.a in Frameworks */,
+				F1E8C2842390C22000E854D7 /* libNHLFoundation.a in Frameworks */,
+				F1E8C2852390C22000E854D7 /* libNHLUIKit.a in Frameworks */,
 				C5A92852A9B2FB5274C49813 /* Pods_NHLLifeBook.framework in Frameworks */,
-				F17D6087238E6063009E1E57 /* libNHLFoundation.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -750,6 +750,20 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"CocoaLumberjack\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"Masonry\"",
+					"-framework",
+					"\"ReactiveCocoa\"",
+					"-framework",
+					"\"UIKit\"",
+					"-all_load",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = nihility.NHLLifeBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -773,6 +787,20 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"CocoaLumberjack\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"Masonry\"",
+					"-framework",
+					"\"ReactiveCocoa\"",
+					"-framework",
+					"\"UIKit\"",
+					"-all_load",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = nihility.NHLLifeBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
