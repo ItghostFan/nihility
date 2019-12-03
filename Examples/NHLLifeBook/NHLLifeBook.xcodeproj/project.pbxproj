@@ -34,6 +34,13 @@
 		F17D6097238E68AD009E1E57 /* ElementBuilder.plist in Resources */ = {isa = PBXBuildFile; fileRef = F17D6096238E68AD009E1E57 /* ElementBuilder.plist */; };
 		F1E8C2842390C22000E854D7 /* libNHLFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F17D6085238E6063009E1E57 /* libNHLFoundation.a */; };
 		F1E8C2852390C22000E854D7 /* libNHLUIKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F17D6086238E6063009E1E57 /* libNHLUIKit.a */; };
+		F1EBBADE2396247100C9A74F /* NHLMakeBookPanelViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EBBADD2396247100C9A74F /* NHLMakeBookPanelViewModel.m */; };
+		F1EBBAE12396250A00C9A74F /* NHLCollectionViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EBBAE02396250A00C9A74F /* NHLCollectionViewModel.m */; };
+		F1EBBAE42396251F00C9A74F /* NHLTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EBBAE32396251F00C9A74F /* NHLTableViewModel.m */; };
+		F1EBBAE823963BA600C9A74F /* NHLCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EBBAE723963BA600C9A74F /* NHLCollectionViewCell.m */; };
+		F1EBBAEB23963BBA00C9A74F /* NHLTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EBBAEA23963BBA00C9A74F /* NHLTableViewCell.m */; };
+		F1EBBAEF2396448100C9A74F /* NHLMakeBookPanelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EBBAEE2396448100C9A74F /* NHLMakeBookPanelCell.m */; };
+		F1EBBAF32396450200C9A74F /* NHLMakeBookPanelModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EBBAF22396450200C9A74F /* NHLMakeBookPanelModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +116,20 @@
 		F17D6093238E6743009E1E57 /* NHLElementBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHLElementBuilder.h; sourceTree = "<group>"; };
 		F17D6094238E6743009E1E57 /* NHLElementBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHLElementBuilder.m; sourceTree = "<group>"; };
 		F17D6096238E68AD009E1E57 /* ElementBuilder.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ElementBuilder.plist; sourceTree = "<group>"; };
+		F1EBBADC2396247100C9A74F /* NHLMakeBookPanelViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHLMakeBookPanelViewModel.h; sourceTree = "<group>"; };
+		F1EBBADD2396247100C9A74F /* NHLMakeBookPanelViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHLMakeBookPanelViewModel.m; sourceTree = "<group>"; };
+		F1EBBADF2396250A00C9A74F /* NHLCollectionViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHLCollectionViewModel.h; sourceTree = "<group>"; };
+		F1EBBAE02396250A00C9A74F /* NHLCollectionViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHLCollectionViewModel.m; sourceTree = "<group>"; };
+		F1EBBAE22396251F00C9A74F /* NHLTableViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHLTableViewModel.h; sourceTree = "<group>"; };
+		F1EBBAE32396251F00C9A74F /* NHLTableViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHLTableViewModel.m; sourceTree = "<group>"; };
+		F1EBBAE623963BA600C9A74F /* NHLCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHLCollectionViewCell.h; sourceTree = "<group>"; };
+		F1EBBAE723963BA600C9A74F /* NHLCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHLCollectionViewCell.m; sourceTree = "<group>"; };
+		F1EBBAE923963BBA00C9A74F /* NHLTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHLTableViewCell.h; sourceTree = "<group>"; };
+		F1EBBAEA23963BBA00C9A74F /* NHLTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHLTableViewCell.m; sourceTree = "<group>"; };
+		F1EBBAED2396448100C9A74F /* NHLMakeBookPanelCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHLMakeBookPanelCell.h; sourceTree = "<group>"; };
+		F1EBBAEE2396448100C9A74F /* NHLMakeBookPanelCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHLMakeBookPanelCell.m; sourceTree = "<group>"; };
+		F1EBBAF12396450200C9A74F /* NHLMakeBookPanelModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHLMakeBookPanelModel.h; sourceTree = "<group>"; };
+		F1EBBAF22396450200C9A74F /* NHLMakeBookPanelModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHLMakeBookPanelModel.m; sourceTree = "<group>"; };
 		F26132D1E91C54EBDB359D67 /* Pods_NHLLifeBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NHLLifeBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDD75B8BE7DB3097B197A6F9 /* Pods_NHLLifeBookUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NHLLifeBookUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -215,19 +236,11 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		F13D84B3238E8242005FA153 /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				F13D84BA238E8720005FA153 /* MakeBook */,
-				F13D84B4238E825C005FA153 /* NHLUIBuilder.h */,
-				F13D84B5238E825C005FA153 /* NHLUIBuilder.m */,
-			);
-			path = UI;
-			sourceTree = "<group>";
-		};
 		F13D84BA238E8720005FA153 /* MakeBook */ = {
 			isa = PBXGroup;
 			children = (
+				F1EBBAF0239644D300C9A74F /* Model */,
+				F1EBBADB2396235700C9A74F /* View */,
 				F13D84BB238E873D005FA153 /* ViewModel */,
 				F13D84B7238E8717005FA153 /* NHLMakeBookController.h */,
 				F13D84B8238E8717005FA153 /* NHLMakeBookController.m */,
@@ -238,6 +251,8 @@
 		F13D84BB238E873D005FA153 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				F1EBBADC2396247100C9A74F /* NHLMakeBookPanelViewModel.h */,
+				F1EBBADD2396247100C9A74F /* NHLMakeBookPanelViewModel.m */,
 				F13D84BC238E877C005FA153 /* NHLMakeBookViewModel.h */,
 				F13D84BD238E877C005FA153 /* NHLMakeBookViewModel.m */,
 			);
@@ -269,8 +284,9 @@
 		F150B4E42384F22F00DEBBEA /* NHLLifeBook */ = {
 			isa = PBXGroup;
 			children = (
-				F13D84B3238E8242005FA153 /* UI */,
+				F1EBBAEC23963C4A00C9A74F /* App */,
 				F17D6080238E5D2F009E1E57 /* ViewModel */,
+				F1EBBAE523963B7700C9A74F /* View */,
 				F17D607F238E5D21009E1E57 /* LifeBook */,
 				F150B4E52384F22F00DEBBEA /* AppDelegate.h */,
 				F150B4E62384F22F00DEBBEA /* AppDelegate.m */,
@@ -327,6 +343,10 @@
 		F17D6080238E5D2F009E1E57 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				F1EBBADF2396250A00C9A74F /* NHLCollectionViewModel.h */,
+				F1EBBAE02396250A00C9A74F /* NHLCollectionViewModel.m */,
+				F1EBBAE22396251F00C9A74F /* NHLTableViewModel.h */,
+				F1EBBAE32396251F00C9A74F /* NHLTableViewModel.m */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -340,6 +360,45 @@
 				F17D6091238E64AE009E1E57 /* NHLUIPage.m */,
 			);
 			path = Element;
+			sourceTree = "<group>";
+		};
+		F1EBBADB2396235700C9A74F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F1EBBAED2396448100C9A74F /* NHLMakeBookPanelCell.h */,
+				F1EBBAEE2396448100C9A74F /* NHLMakeBookPanelCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F1EBBAE523963B7700C9A74F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F1EBBAE623963BA600C9A74F /* NHLCollectionViewCell.h */,
+				F1EBBAE723963BA600C9A74F /* NHLCollectionViewCell.m */,
+				F1EBBAE923963BBA00C9A74F /* NHLTableViewCell.h */,
+				F1EBBAEA23963BBA00C9A74F /* NHLTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F1EBBAEC23963C4A00C9A74F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F13D84BA238E8720005FA153 /* MakeBook */,
+				F13D84B4238E825C005FA153 /* NHLUIBuilder.h */,
+				F13D84B5238E825C005FA153 /* NHLUIBuilder.m */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F1EBBAF0239644D300C9A74F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F1EBBAF12396450200C9A74F /* NHLMakeBookPanelModel.h */,
+				F1EBBAF22396450200C9A74F /* NHLMakeBookPanelModel.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -564,11 +623,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1EBBAEB23963BBA00C9A74F /* NHLTableViewCell.m in Sources */,
 				F1575BF7238FD2DD00544E0C /* NHLUIBook.m in Sources */,
+				F1EBBADE2396247100C9A74F /* NHLMakeBookPanelViewModel.m in Sources */,
+				F1EBBAE42396251F00C9A74F /* NHLTableViewModel.m in Sources */,
 				F13D84BE238E877C005FA153 /* NHLMakeBookViewModel.m in Sources */,
 				F13D84B6238E825C005FA153 /* NHLUIBuilder.m in Sources */,
 				F17D6095238E6743009E1E57 /* NHLElementBuilder.m in Sources */,
 				F13D84B2238E814A005FA153 /* NHLElementFrameCell.m in Sources */,
+				F1EBBAF32396450200C9A74F /* NHLMakeBookPanelModel.m in Sources */,
+				F1EBBAEF2396448100C9A74F /* NHLMakeBookPanelCell.m in Sources */,
 				F150B4E72384F22F00DEBBEA /* AppDelegate.m in Sources */,
 				F13D8499238E77B2005FA153 /* NHLElementPanel.m in Sources */,
 				F13D84B9238E8717005FA153 /* NHLMakeBookController.m in Sources */,
@@ -578,8 +642,10 @@
 				F1575BF4238FAD0500544E0C /* NHLElementBackgroundModel.m in Sources */,
 				F17D6092238E64AE009E1E57 /* NHLUIPage.m in Sources */,
 				F13D84AB238E7E3A005FA153 /* NHLElementViewModel.m in Sources */,
+				F1EBBAE12396250A00C9A74F /* NHLCollectionViewModel.m in Sources */,
 				F13D849F238E77DB005FA153 /* NHLImagePanel.m in Sources */,
 				F13D84AE238E7FEA005FA153 /* NHLElementFrameModel.m in Sources */,
+				F1EBBAE823963BA600C9A74F /* NHLCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

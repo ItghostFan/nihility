@@ -13,9 +13,12 @@
 #import "NHLUIPage.h"
 #import "NHLElementFrameModel.h"
 #import "NHLUIBook.h"
+#import "NHLMakeBookPanelCell.h"
+#import "NHLMakeBookPanelViewModel.h"
 
 @interface NHLMakeBookController ()
 @property (strong, nonatomic) NHLMakeBookViewModel *viewModel;
+@property (strong, nonatomic) NHLMakeBookPanelViewModel *panelViewModel;
 @property (weak, nonatomic) NHLUIBook *uiBook;
 @end
 
@@ -31,7 +34,7 @@
 - (void)bindViewModel:(NHLMakeBookViewModel *)viewModel {
     self.viewModel = viewModel;
     @weakify(self);
-    self.uiBook = NHLUIBuild(NHLUIBook, ^(MASConstraintMaker *make) {
+    self.uiBook = NHLUIBuild(nil, NHLUIBook, ^(MASConstraintMaker *make) {
         @strongify(self);
         make.left.right.equalTo(self.view);
         if (@available(iOS 11.0, *)) {
@@ -49,8 +52,29 @@
 //    self.uiBook.frameModel.height = @(720.0f);
     [self.uiBook addPage:[NHLUIPage new]];
     [self.uiBook addPage:[NHLUIPage new]];
+    
+    [self makePanel];
 }
 
-#pragma mark - make business
+#pragma mark - make view
+
+- (void)makePanel {
+    @weakify(self);
+    self.panelViewModel = [NHLMakeBookPanelViewModel new];
+    self.panelViewModel.collectionView = NHLUIBuild(^(UIView *superview) {
+        UICollectionViewFlowLayout *layout = [UICollectionViewFlowLayout new];
+        layout.scrollDirection = UICollectionViewScrollDirectionVertical;
+        return [[UICollectionView alloc] initWithFrame:CGRectZero collectionViewLayout:layout];
+    }, UICollectionView, ^(MASConstraintMaker *make) {
+        @strongify(self);
+        make.size.mas_equalTo(NHLMakeBookPanelCell.cellSize);
+        make.centerY.left.equalTo(self.view);
+    }, self.view);
+    self.panelViewModel.collectionView.backgroundColor = UIColor.clearColor;
+    [[self.panelViewModel rac_signalForSelector:@selector(viewModel:didSelectedIndexPath:model:)] subscribeNext:^(RACTuple *tuple) {
+        RACTupleUnpack(NHLMakeBookPanelViewModel *viewModel, NSIndexPath *indexPath) = tuple;
+        [viewModel.collectionView deselectItemAtIndexPath:indexPath animated:YES];
+    }];
+}
 
 @end

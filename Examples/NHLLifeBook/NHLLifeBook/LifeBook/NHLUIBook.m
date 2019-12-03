@@ -22,7 +22,7 @@
     if (self = [super initWithFrame:frame]) {
         self.backgroundColor = COLOR_HTML_RGB(@"#00FF00");
         self.pages = [NSMutableArray array];
-        self.pageView = NHLUIBuild(UIScrollView, ^(MASConstraintMaker * _Nonnull make) {
+        self.pageView = NHLUIBuild(nil, UIScrollView, ^(MASConstraintMaker * _Nonnull make) {
             make.edges.mas_equalTo(UIEdgeInsetsZero);
         }, self);
     }

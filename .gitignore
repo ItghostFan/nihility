@@ -24,3 +24,5 @@ Examples/Pods/NHLFoundation/Podfile.lock
 Examples/Pods/NHLFoundation/Pods/*
 Examples/Pods/NHLFoundation/NHLFoundation.xcworkspace
 
+resource/
+
