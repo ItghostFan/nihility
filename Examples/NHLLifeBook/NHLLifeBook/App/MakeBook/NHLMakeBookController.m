@@ -67,7 +67,8 @@
         return [[UICollectionView alloc] initWithFrame:CGRectZero collectionViewLayout:layout];
     }, UICollectionView, ^(MASConstraintMaker *make) {
         @strongify(self);
-        make.size.mas_equalTo(NHLMakeBookPanelCell.cellSize);
+        make.width.mas_equalTo(NHLMakeBookPanelCell.cellSize.width);
+        make.height.mas_equalTo(NHLMakeBookPanelCell.cellSize.height);
         make.centerY.left.equalTo(self.view);
     }, self.view);
     self.panelViewModel.collectionView.backgroundColor = UIColor.clearColor;
