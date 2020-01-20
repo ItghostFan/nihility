@@ -1,0 +1,53 @@
+syntax = "proto3";
+
+import "authorize_common.proto"
+
+package Authorize;
+
+message RegisterRequest {
+	AccountType	accountType			= 1;
+	string passport					= 2;
+	AuthorizeMethod authorizeMethod = 3;
+}
+
+message RegisterResponse {
+	Account account 				= 1;
+}
+
+message RegisterLoginRequest {
+	AccountType	accountType			= 1;
+	string passport					= 2;
+	AuthorizeMethod authorizeMethod = 3;
+}
+
+message RegisterLoginResponse {
+	Account account 				= 1;
+}
+
+message LoginReqeust {
+	AccountType	accountType			= 1;
+	string passport					= 2;
+	AuthorizeMethod authorizeMethod = 3;
+}
+
+message LoginResponse {
+	Account account 				= 1;
+}
+
+message WebTokenRequest {
+}
+
+message WebTokenResponse {
+	string webToken 				= 1;
+}
+
+message AuthorizePacket {
+	RegisterRequest registerRequest 			= 1;
+	RegisterResponse registerResponse 			= 2;
+	RegisterLoginRequest registerLoginRequest 	= 3;
+	RegisterLoginResponse registerLoginResponse = 4;
+	LoginReqeust loginReqeust 					= 5;
+	LoginResponse loginResponse 				= 6;
+	WebTokenRequest webTokenRequest 			= 7;
+	WebTokenResponse webTokenResponse 			= 8;
+}

@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+import "user_common.proto";
+
+package Chat;
+
+message UserChat {
+	uint64 userId		= 1;
+	string message		= 2;
+}
+
+message GroupChat {
+	uint64 userId			= 1;
+	string userAvatarUrl	= 2;
+	uint64 groupId			= 3;
+	string message			= 4;
+
+}

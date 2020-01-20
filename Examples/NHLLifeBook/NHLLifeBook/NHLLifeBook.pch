@@ -17,6 +17,10 @@
 #import "NHLFoundation.h"
 #import "NHLUIKit.h"
 
+// 基本框架头文件
+#import "NHLModule.h"
+#import "NHLViewModel.h"
+
 #import "NHLUIBuilder.h"
 
 #define NHL_LOCALIZED_STRING(key, comment) NSLocalizedString(key, comment == nil ? [NSString stringWithCString:__FILE__ encoding:NSUTF8StringEncoding])

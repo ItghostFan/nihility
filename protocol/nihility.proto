@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package Nihility;
+
+import "authorize.proto";
+import "user.proto";
+
+message Packet {
+	AuthorizePacket authorizePacket 	= 1;
+	UserPacket userPacket 				= 2;
+}

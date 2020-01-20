@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+package Authorize;
+
+enum AccountType {
+    ANONYMOUS		= 0;
+    PHONE			= 1;
+    EMAIL			= 2;
+}
+
+enum AuthorizeType {
+    PASSWORD		= 0;
+    VERIFY_CODE		= 1;
+    ACCESS_TOKEN	= 2;
+    ACCESS_CODE		= 3;
+}
+
+message AuthorizeMethod {
+	AuthorizeType authorizeType  	= 1;
+	string secretKey				= 2;		// 根据type确定是哪种登录密钥
+}
+
+message Account {
+	AccountType	accountType			= 1;
+	uint64 userId					= 2;
+	string passport					= 3;
+}

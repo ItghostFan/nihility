@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+import "user_common.proto";
+
+package User;
+
+message UserRequest {
+	uint64 userId					= 1;
+}
+
+message UserResponse {
+	User user 						= 1;
+}
+
+message ModifyRequest {
+	string nickname 				= 1;
+}
+
+message ModifyResponse {
+	
+}
+
+message UserPacket {
+	UserRequest userRequest 		= 1;
+	UserResponse userResponse 		= 2;
+	ModifyRequest modifyRequest 	= 3;
+	ModifyResponse modifyResponse 	= 4;
+}

@@ -8,21 +8,35 @@
 
 #import "AppDelegate.h"
 
-#import "NHLMakeBookViewModel.h"
-#import "NHLMakeBookController.h"
+#import "AppMain.h"
+#import "AppSegue.h"
 
 @interface AppDelegate ()
-@property (strong, nonatomic) UIWindow *keyWindow;
+@property (nonatomic, strong) NSMutableDictionary<__kindof NHLModuleClassName *, __kindof id<NHLModule>> *modules;
 @end
 
 @implementation AppDelegate
 
+- (instancetype)init {
+    if (self = [super init]) {
+        self.modules = [NSMutableDictionary new];
+    }
+    return self;
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    self.keyWindow = [UIWindow new];
-    NHLMakeBookController *controller = [[NHLMakeBookController alloc] initWithViewModel:[NHLMakeBookViewModel new]];
-    self.keyWindow.rootViewController = controller;
-    [self.keyWindow makeKeyAndVisible];
     return YES;
+}
+
+#pragma mark - NHLApplicationDelegate
+
+- (id<NHLViewModel>)viewModelOfClass:(Class)cls {
+    id<NHLModule> module = self.modules[NSStringFromClass(AppMain.class)];
+    return [module viewModelOfClass:cls];
+}
+
+- (id<NHLModule>)moduleOfClass:(Class)cls {
+    return self.modules[NSStringFromClass(cls)];
 }
 
 @end

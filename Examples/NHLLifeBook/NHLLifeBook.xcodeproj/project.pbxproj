@@ -10,6 +10,12 @@
 		A83EC68E0AD8541C547F2458 /* Pods_NHLLifeBookTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA09A658006A6F212C531CA9 /* Pods_NHLLifeBookTests.framework */; };
 		C5A92852A9B2FB5274C49813 /* Pods_NHLLifeBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F26132D1E91C54EBDB359D67 /* Pods_NHLLifeBook.framework */; };
 		C5CBF0B59180DD379D6A1281 /* Pods_NHLLifeBookUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD75B8BE7DB3097B197A6F9 /* Pods_NHLLifeBookUITests.framework */; };
+		F131348223D582FC00C318CA /* NHLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F131348123D582FC00C318CA /* NHLViewController.m */; };
+		F131348523D5832800C318CA /* NHLPushController.m in Sources */ = {isa = PBXBuildFile; fileRef = F131348423D5832800C318CA /* NHLPushController.m */; };
+		F131348823D5834600C318CA /* NHLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F131348723D5834600C318CA /* NHLNavigationController.m */; };
+		F131348E23D58DDB00C318CA /* NHLLocalBookViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F131348D23D58DDB00C318CA /* NHLLocalBookViewModel.m */; };
+		F131349123D5B08E00C318CA /* AppSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = F131349023D5B08E00C318CA /* AppSegue.m */; };
+		F131349423D5B0C600C318CA /* AppMain.m in Sources */ = {isa = PBXBuildFile; fileRef = F131349323D5B0C600C318CA /* AppMain.m */; };
 		F13D8495238E7759005FA153 /* PropertyPanelBuilder.plist in Resources */ = {isa = PBXBuildFile; fileRef = F13D8494238E7759005FA153 /* PropertyPanelBuilder.plist */; };
 		F13D8499238E77B2005FA153 /* NHLElementPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = F13D8498238E77B2005FA153 /* NHLElementPanel.m */; };
 		F13D849C238E77CC005FA153 /* NHLTextPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = F13D849B238E77CC005FA153 /* NHLTextPanel.m */; };
@@ -41,6 +47,7 @@
 		F1EBBAEB23963BBA00C9A74F /* NHLTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EBBAEA23963BBA00C9A74F /* NHLTableViewCell.m */; };
 		F1EBBAEF2396448100C9A74F /* NHLMakeBookPanelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EBBAEE2396448100C9A74F /* NHLMakeBookPanelCell.m */; };
 		F1EBBAF32396450200C9A74F /* NHLMakeBookPanelModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EBBAF22396450200C9A74F /* NHLMakeBookPanelModel.m */; };
+		F1F0F08723D57EDB008A2097 /* NHLLocalBookController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F0F08623D57EDA008A2097 /* NHLLocalBookController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +77,20 @@
 		8C58660CF46FC7685E4E8FED /* Pods-NHLLifeBookUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NHLLifeBookUITests.debug.xcconfig"; path = "Target Support Files/Pods-NHLLifeBookUITests/Pods-NHLLifeBookUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9D79B97EC1E13876624E6214 /* Pods-App-NHLLifeBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-NHLLifeBook.release.xcconfig"; path = "Target Support Files/Pods-App-NHLLifeBook/Pods-App-NHLLifeBook.release.xcconfig"; sourceTree = "<group>"; };
 		AA09A658006A6F212C531CA9 /* Pods_NHLLifeBookTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NHLLifeBookTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F131348023D582FC00C318CA /* NHLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHLViewController.h; sourceTree = "<group>"; };
+		F131348123D582FC00C318CA /* NHLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHLViewController.m; sourceTree = "<group>"; };
+		F131348323D5832800C318CA /* NHLPushController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHLPushController.h; sourceTree = "<group>"; };
+		F131348423D5832800C318CA /* NHLPushController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHLPushController.m; sourceTree = "<group>"; };
+		F131348623D5834600C318CA /* NHLNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHLNavigationController.h; sourceTree = "<group>"; };
+		F131348723D5834600C318CA /* NHLNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHLNavigationController.m; sourceTree = "<group>"; };
+		F131348C23D58DDB00C318CA /* NHLLocalBookViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHLLocalBookViewModel.h; sourceTree = "<group>"; };
+		F131348D23D58DDB00C318CA /* NHLLocalBookViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHLLocalBookViewModel.m; sourceTree = "<group>"; };
+		F131348F23D5B08E00C318CA /* AppSegue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppSegue.h; sourceTree = "<group>"; };
+		F131349023D5B08E00C318CA /* AppSegue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppSegue.m; sourceTree = "<group>"; };
+		F131349223D5B0C600C318CA /* AppMain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppMain.h; sourceTree = "<group>"; };
+		F131349323D5B0C600C318CA /* AppMain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppMain.m; sourceTree = "<group>"; };
+		F131349623D5B5EE00C318CA /* NHLModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHLModule.h; sourceTree = "<group>"; };
+		F131349723D5B66F00C318CA /* NHLViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHLViewModel.h; sourceTree = "<group>"; };
 		F13D8493238E6F77005FA153 /* NHLLifeBook.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHLLifeBook.pch; sourceTree = "<group>"; };
 		F13D8494238E7759005FA153 /* PropertyPanelBuilder.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PropertyPanelBuilder.plist; sourceTree = "<group>"; };
 		F13D8497238E77B2005FA153 /* NHLElementPanel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHLElementPanel.h; sourceTree = "<group>"; };
@@ -130,6 +151,8 @@
 		F1EBBAEE2396448100C9A74F /* NHLMakeBookPanelCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHLMakeBookPanelCell.m; sourceTree = "<group>"; };
 		F1EBBAF12396450200C9A74F /* NHLMakeBookPanelModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHLMakeBookPanelModel.h; sourceTree = "<group>"; };
 		F1EBBAF22396450200C9A74F /* NHLMakeBookPanelModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHLMakeBookPanelModel.m; sourceTree = "<group>"; };
+		F1F0F08523D57EDA008A2097 /* NHLLocalBookController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHLLocalBookController.h; sourceTree = "<group>"; };
+		F1F0F08623D57EDA008A2097 /* NHLLocalBookController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHLLocalBookController.m; sourceTree = "<group>"; };
 		F26132D1E91C54EBDB359D67 /* Pods_NHLLifeBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NHLLifeBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDD75B8BE7DB3097B197A6F9 /* Pods_NHLLifeBookUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NHLLifeBookUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -189,6 +212,51 @@
 				F26132D1E91C54EBDB359D67 /* Pods_NHLLifeBook.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F131347F23D582DB00C318CA /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				F131348023D582FC00C318CA /* NHLViewController.h */,
+				F131348123D582FC00C318CA /* NHLViewController.m */,
+				F131348323D5832800C318CA /* NHLPushController.h */,
+				F131348423D5832800C318CA /* NHLPushController.m */,
+				F131348623D5834600C318CA /* NHLNavigationController.h */,
+				F131348723D5834600C318CA /* NHLNavigationController.m */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		F131348923D58DA200C318CA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F131348A23D58DAD00C318CA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F131348B23D58DB400C318CA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F131348C23D58DDB00C318CA /* NHLLocalBookViewModel.h */,
+				F131348D23D58DDB00C318CA /* NHLLocalBookViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F131349523D5B5D500C318CA /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				F131349623D5B5EE00C318CA /* NHLModule.h */,
+				F131349723D5B66F00C318CA /* NHLViewModel.h */,
+			);
+			path = Framework;
 			sourceTree = "<group>";
 		};
 		F13D8496238E7775005FA153 /* Panel */ = {
@@ -284,12 +352,18 @@
 		F150B4E42384F22F00DEBBEA /* NHLLifeBook */ = {
 			isa = PBXGroup;
 			children = (
-				F1EBBAEC23963C4A00C9A74F /* App */,
+				F131349523D5B5D500C318CA /* Framework */,
+				F131347F23D582DB00C318CA /* Theme */,
+				F1EBBAEC23963C4A00C9A74F /* BIZ */,
 				F17D6080238E5D2F009E1E57 /* ViewModel */,
 				F1EBBAE523963B7700C9A74F /* View */,
 				F17D607F238E5D21009E1E57 /* LifeBook */,
 				F150B4E52384F22F00DEBBEA /* AppDelegate.h */,
 				F150B4E62384F22F00DEBBEA /* AppDelegate.m */,
+				F131348F23D5B08E00C318CA /* AppSegue.h */,
+				F131349023D5B08E00C318CA /* AppSegue.m */,
+				F131349223D5B0C600C318CA /* AppMain.h */,
+				F131349323D5B0C600C318CA /* AppMain.m */,
 				F150B4F12384F23100DEBBEA /* Assets.xcassets */,
 				F150B4F32384F23100DEBBEA /* LaunchScreen.storyboard */,
 				F150B4F62384F23100DEBBEA /* Info.plist */,
@@ -382,14 +456,15 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		F1EBBAEC23963C4A00C9A74F /* App */ = {
+		F1EBBAEC23963C4A00C9A74F /* BIZ */ = {
 			isa = PBXGroup;
 			children = (
+				F1F0F08423D57E8A008A2097 /* LocalBook */,
 				F13D84BA238E8720005FA153 /* MakeBook */,
 				F13D84B4238E825C005FA153 /* NHLUIBuilder.h */,
 				F13D84B5238E825C005FA153 /* NHLUIBuilder.m */,
 			);
-			path = App;
+			path = BIZ;
 			sourceTree = "<group>";
 		};
 		F1EBBAF0239644D300C9A74F /* Model */ = {
@@ -399,6 +474,18 @@
 				F1EBBAF22396450200C9A74F /* NHLMakeBookPanelModel.m */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		F1F0F08423D57E8A008A2097 /* LocalBook */ = {
+			isa = PBXGroup;
+			children = (
+				F131348923D58DA200C318CA /* Model */,
+				F131348A23D58DAD00C318CA /* View */,
+				F131348B23D58DB400C318CA /* ViewModel */,
+				F1F0F08523D57EDA008A2097 /* NHLLocalBookController.h */,
+				F1F0F08623D57EDA008A2097 /* NHLLocalBookController.m */,
+			);
+			path = LocalBook;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -625,14 +712,19 @@
 			files = (
 				F1EBBAEB23963BBA00C9A74F /* NHLTableViewCell.m in Sources */,
 				F1575BF7238FD2DD00544E0C /* NHLUIBook.m in Sources */,
+				F131348E23D58DDB00C318CA /* NHLLocalBookViewModel.m in Sources */,
 				F1EBBADE2396247100C9A74F /* NHLMakeBookPanelViewModel.m in Sources */,
 				F1EBBAE42396251F00C9A74F /* NHLTableViewModel.m in Sources */,
 				F13D84BE238E877C005FA153 /* NHLMakeBookViewModel.m in Sources */,
+				F131349423D5B0C600C318CA /* AppMain.m in Sources */,
 				F13D84B6238E825C005FA153 /* NHLUIBuilder.m in Sources */,
+				F131348523D5832800C318CA /* NHLPushController.m in Sources */,
 				F17D6095238E6743009E1E57 /* NHLElementBuilder.m in Sources */,
 				F13D84B2238E814A005FA153 /* NHLElementFrameCell.m in Sources */,
+				F131348823D5834600C318CA /* NHLNavigationController.m in Sources */,
 				F1EBBAF32396450200C9A74F /* NHLMakeBookPanelModel.m in Sources */,
 				F1EBBAEF2396448100C9A74F /* NHLMakeBookPanelCell.m in Sources */,
+				F131349123D5B08E00C318CA /* AppSegue.m in Sources */,
 				F150B4E72384F22F00DEBBEA /* AppDelegate.m in Sources */,
 				F13D8499238E77B2005FA153 /* NHLElementPanel.m in Sources */,
 				F13D84B9238E8717005FA153 /* NHLMakeBookController.m in Sources */,
@@ -644,8 +736,10 @@
 				F13D84AB238E7E3A005FA153 /* NHLElementViewModel.m in Sources */,
 				F1EBBAE12396250A00C9A74F /* NHLCollectionViewModel.m in Sources */,
 				F13D849F238E77DB005FA153 /* NHLImagePanel.m in Sources */,
+				F131348223D582FC00C318CA /* NHLViewController.m in Sources */,
 				F13D84AE238E7FEA005FA153 /* NHLElementFrameModel.m in Sources */,
 				F1EBBAE823963BA600C9A74F /* NHLCollectionViewCell.m in Sources */,
+				F1F0F08723D57EDB008A2097 /* NHLLocalBookController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

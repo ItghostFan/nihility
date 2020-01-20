@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package Chat;
+
+message UserMessage {
+	uint64 userId 			= 1;
+}

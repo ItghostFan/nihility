@@ -1,0 +1,4 @@
+<Book name="book">
+	<Page name="page0" index="0"/>
+	<Page name="page1" index="1"/>
+</Book>
